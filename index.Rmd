@@ -1,5 +1,5 @@
 ---
-title: "431 Syllabus - Fall 2017"
+title: "431 Syllabus - Fall 2018"
 author: "Thomas E. Love, Ph.D."
 date: "Version `r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -16,11 +16,13 @@ output:
 knitr::include_graphics("figures/cwru-stacked-logo-blue-no-tag.jpg")
 ```
 
-This is the Fall 2017 syllabus page for PQHS / CRSP / MPHP 431: Statistical Methods in Biological & Medical Sciences, Section 1, taught by Professor Thomas Love. The course is given on Tuesdays and Thursdays from 1:00 to 2:15 PM, generally in Robbins Room E321-323.
+Note that this is a **DRAFT syllabus used for testing purposes only**, and will change drastically in the weeks to come. Everything in this document is subject to substantial change before class begins.
+
+This is the Fall 2018 syllabus page for PQHS / CRSP / MPHP 431: Statistical Methods in Biological & Medical Sciences, Section 1, taught by Professor Thomas Love. The course is given on Tuesdays and Thursdays from 1:00 to 2:15 PM, in Robbins Room E321-323.
 
 ## Course Home Page {-}
 
-The course home page, with links to everything else you'll need, is at https://github.com/THOMASELOVE/431
+The course home page, with links to everything else you'll need, is at https://github.com/THOMASELOVE/431-2018
 
 ## Getting Help! {-}
 
@@ -28,7 +30,7 @@ To get help for anything related to the course, email **431-help at case dot edu
 
 - Dr. Love is available on Tuesdays and Thursdays at CWRU, by appointment. To make an appointment, email him at `thomas.love@case.edu`. He is usually available for 15-30 minutes both before and after class for drop-in conversations. His office is Wood WG-82 L.
     + If you have any special concerns about the course, need special accommodations or any other issues for Dr. Love, please email or stop by before or after class.
-- TA office hours will be more extensive, and will begin on 2017-09-05. A schedule will be announced as soon as possible. Those office hours are held either in the computing lab (WG-56) or the student lounge (WG-67) on the ground floor of the Wood building, depending mostly on the TA's preference that day.
+- TA office hours will be more extensive, and will begin in early September. A schedule will be announced as soon as possible. Those office hours are held either in the computing lab (WG-56) or the student lounge (WG-67) on the ground floor of the Wood building, depending mostly on the TA's preference that day.
 
 # Course Description
 
@@ -78,62 +80,62 @@ But within those Parts, we jump around. A lot.
 
 The first five classes are more about R and R Studio than about statistics. Once everyone's gotten rolling, our approach changes a bit to focus more on statistical concerns, and less on the technology.
 
-The Topics listed here will not correspond closely to this schedule, but we'll wind up in the same place. 
+This is only a **tentative schedule**, but we'll wind up in the same place. 
 
 Class | Date | Topics | Readings
 -----: | ----------: | ------------------------------------- | ---------
-1 | 2017-08-29 | Introduction, Getting Started | Syllabus
-2 | 2017-08-31 | **Part A. Visualizing Data**, R and R Studio | 
-3 | 2017-09-05 | Exploring Data and the Tidyverse | 
-4 | 2017-09-07 | (**Room E401**) Scripts and Projects in R/R Studio | Leek 5, 9, 10, 13
-5 | 2017-09-12 | Data Transformation and dplyr | Silver, Intro and Chapter 1
-6 | 2017-09-14 | Exploratory Data Analysis | 
-- | 2017-09-15 | Assignment 1 due at noon.
-7 | 2017-09-19 | Descriptive Statistics, The Normal Distribution |
-8 | 2017-09-21 | Using `ggplot2` more effectively |
-- | 2017-09-22 | Assignment 2 due at noon.
-9 | 2017-09-26 | Linear regression and correlation | Silver, 2-3
-10 | 2017-09-28 | Studying associations |
-- | 2017-09-29 | Assignment 3 due at noon.
-11 | 2017-10-03 | **Part B: Making Comparisons** | Leek 1-4 and 12
-12 | 2017-10-05 | Confidence intervals for Means | Quiz 1 provided to you.
-- | 2017-10-09 | Quiz 1 due at noon. |
-13 | 2017-10-10 | Matched Pairs, Independent Samples | Leek 6, Silver 4-5
-14 | 2017-10-12 | Hypothesis Testing Strategies |
--  | 2017-10-13 | Project Task A due at noon.
-15 | 2017-10-17 | The Analysis of Variance and Related Tools | Silver 7-8
-16 | 2017-10-19 | Multiple Comparisons | 
--  | 2017-10-23 | Project Task B due at noon.
--- | *2017-10-24* | *CWRU Fall Break (no class)* | --
-17 | 2017-10-26 | Comparing Two Means - Set Up Survey | 
--  | 2017-10-27 | Assignment 4 due at noon.
-18 | 2017-10-31 | ANOVA - Comparing Multiple Means |
-19 | 2017-11-02 | **Part C: Building Effective Models** | Silver through 11
-20 | 2017-11-07 | Building Inferences for Rates |
--  | 2017-11-08 | Project Task C due at noon.
--  | 2017-11-09 | Assignment 5 due at noon.
-21 | 2017-11-09 | Conclude Part B of course | Quiz 2 provided to you.
--  | 2017-11-14 | Quiz 2 due at 8 AM. |
-22 | 2017-11-14 | Begin Part C of course | Leek 7-8
-23 | 2017-11-16 | Estimation and Inference |
--  | 2017-11-20 | Project Task D due at noon.
--- | *2017-11-21* | *Class is cancelled.* | --
--- | *2017-11-23* | *CWRU Thanksgiving Break (no class)* | --
-24 | 2017-11-28 | Residual and Influence Analysis | Silver 12
-25 | 2017-11-30 | Prediction and Validation |
--  | 2017-12-04 | Assignment 6 due at noon.
-26 | 2017-12-05 | More Modeling Content | Silver finish book
-27 | 2017-12-07 | Looking Back, and Forward | Quiz 3 provided to you.
--  | 2017-12-12 | Quiz 3 due at noon. | --
--  | 2017-12-13 | Project Task E due at noon.
+1 | 2018-08-28 | Introduction, Getting Started | Syllabus
+2 | 2018-08-30 | **Part A. Visualizing Data**, R and R Studio | 
+3 | 2018-09-04 | Exploring Data and the Tidyverse | 
+4 | 2018-09-06 | Scripts and Projects in R/R Studio | Leek 5, 9, 10, 13
+5 | 2018-09-11 | Data Transformation and dplyr | Silver, Intro and Chapter 1
+6 | 2018-09-13 | Exploratory Data Analysis | 
+- | - | Assignment 1 due at noon.
+7 | 2018-09-18 | Descriptive Statistics, The Normal Distribution |
+8 | 2018-09-20 | Using `ggplot2` more effectively |
+- | - | Assignment 2 due at noon.
+9 | 2018-09-25 | Linear regression and correlation | Silver, 2-3
+10 | 2018-09-27 | Studying associations |
+- | - | Assignment 3 due at noon.
+11 | 2018-10-02 | **Part B: Making Comparisons** | Leek 1-4 and 12
+12 | 2018-10-04 | Confidence intervals for Means | Quiz 1 provided to you.
+- | - | Quiz 1 due at noon. |
+13 | 2018-10-09 | Matched Pairs, Independent Samples | Leek 6, Silver 4-5
+14 | 2018-10-11 | Hypothesis Testing Strategies |
+-  | - | Project Task A due at noon.
+15 | 2018-10-16 | The Analysis of Variance and Related Tools | Silver 7-8
+16 | 2018-10-18 | Multiple Comparisons | 
+-  | - | Project Task B due at noon.
+-- | *2018-10-23* | *CWRU Fall Break (no class)* | --
+17 | 2018-10-25 | Comparing Two Means - Set Up Survey | 
+-  | - | Assignment 4 due at noon.
+18 | 2018-10-30 | ANOVA - Comparing Multiple Means |
+19 | 2018-11-01 | **Part C: Building Effective Models** | Silver through 11
+20 | 2018-11-06 | Building Inferences for Rates |
+-  | - | Project Task C due at noon.
+-  | - | Assignment 5 due at noon.
+21 | 2018-11-08 | Conclude Part B of course | Quiz 2 provided to you.
+-  | - | Quiz 2 due at 8 AM. |
+22 | 2018-11-13 | Begin Part C of course | Leek 7-8
+23 | 2018-11-15 | Estimation and Inference |
+-  | - | Project Task D due at noon.
+-- | *2018-11-20* | *Class is cancelled.* | --
+-- | *2018-11-22* | *CWRU Thanksgiving Break (no class)* | --
+24 | 2018-11-27 | Residual and Influence Analysis | Silver 12
+25 | 2018-11-29 | Prediction and Validation |
+-  | - | Assignment 6 due at noon.
+26 | 2018-12-04 | More Modeling Content | Silver finish book
+27 | 2018-12-06 | Looking Back, and Forward | Quiz 3 provided to you.
+-  | - | Quiz 3 due at noon. | --
+-  | - | Project Task E due at noon.
 
 Final Portfolio Presentations will be held on
 
-- Monday 2017-12-11
-- Tuesday 2017-12-12, and
-- Thursday 2017-12-14
+- Monday 2018-12-10
+- Tuesday 2018-12-11, and
+- Thursday 2018-12-13
 
-Project presentations will be scheduled as part of Project Task A, and you will know the date and time of your portfolio presentation by 2017-10-19.
+Project presentations will be scheduled as part of Project Task A, and you will know the date and time of your portfolio presentation by 2017-10-18.
 
 ## Topics Discussed Extensively in 431 and its follow-up, 432
 
@@ -151,7 +153,7 @@ Project presentations will be scheduled as part of Project Task A, and you will 
     - Causal inference using regression: controlling for covariates meaningfully.
 7. Using R and R Studio to make all of the things above happen; with particular emphasis on doing replicable research and using Markdown to document the work.
 
-Need more details on course topics? Check out [Dr. Love's Notes](https://thomaselove.github.io/431notes/).
+Need more details on course topics? **Dr. Love's 431 book** will be available before the start of class.
 
 # Software
 
@@ -164,11 +166,11 @@ We'll also be using the Markdown tool within R Studio. R Markdown will be taught
 
 R and R Studio are two different things, but each is free software. 
 
-Complete instructions, with a step-by-step walkthrough, are available at https://github.com/THOMASELOVE/431/blob/master/software-installation-431.md
+**Complete instructions, with a step-by-step walkthrough, are available at https://github.com/THOMASELOVE/431/blob/master/software-installation-431.md**
 
 If you need more help, you might look at [this terrific resource for Installing R and RStudio](http://stat545.com/block000_r-rstudio-install.html) from Jenny Bryan and the STAT 545 project. These are the people responsible for the great [Happy Git with R](http://happygitwithr.com/) project, which is worth your time, too, if you intend to use Git and GitHub. (Everyone will in 432.)
 
-In brief, the steps you need to take for 431 are:
+**In brief, the steps you need to take for 431 are:**
 
 1. Download and install the latest version of R (version 3.4.1 or later) at http://cran.case.edu/ or https://cran.r-project.org/.
 2. Download and install the preview version of R Studio (version 1.1.345 or later) at https://www.rstudio.com/products/rstudio/download/preview/.
@@ -360,7 +362,7 @@ I hold degrees from Columbia University in the City of New York and from the Uni
 
 # Teaching Assistants
 
-The teaching assistants for 431 this year are Claudia Cabrera, Omar Alaber, Kara Quaid, Rosie Conic and Bob Winkelman. They are the people answering 431-help at case dot edu, and they are the people holding the bulk of our office hours. Each of them has been in your shoes - they've taken the course in the past, and they enjoyed it enough to come back for more. Many have volunteered their precious time and energy to help make the course happen, and we couldn't be more delighted to welcome you to the course.
+The teaching assistants for 431 this year will be determined this summer. They are the people answering 431-help at case dot edu, and they are the people holding the bulk of our office hours. Each of them has been in your shoes - they've taken the course in the past, and they enjoyed it enough to come back for more. Many have volunteered their precious time and energy to help make the course happen, and we couldn't be more delighted to welcome you to the course.
 
 To contact the TAs, email `431-help at case dot edu`.
 
@@ -368,50 +370,8 @@ To contact the TAs, email `431-help at case dot edu`.
 
 Teaching Assistant Office Hours are held in WG-56 (Computing Lab) or WG-67 (Student Lounge) on the ground floor of the Wood building, so be sure to look in both places if you need help. 
 
-The TAs hold hours at the following times.
+TA office hours will be specified in early September.
 
-- Tuesdays and Thursdays from 11:30 - 12:30, 2:30 - 4:30 and 5:45 - 6:45, 
-- and also on Fridays from 4:30 - 5:30.
-
-## Claudia Cabrera
-
-```{r Claudia-fig, echo = FALSE, out.width = '33%'}
-knitr::include_graphics("figures/Claudia.PNG")
-```
-
-Claudia Cabrera, MD, graduated from Monterrey Institute of Technology and Higher Education Medical School in 2012 and is in the Masters' Program in Clinical Research. Before coming to Case, Claudia worked in Bariatric Surgery for two years while also lecturing in Anatomy and Physiology at the same university from which she graduated in Mexico. She took 431 and 432 two years ago and thoroughly enjoyed learning Statistics, especially its applications to medicine. Claudia loves doing Clinical Research as well as learning and teaching. Currently her research is related to melanoma and head and neck surgery. In her free time, Claudia loves playing basketball, and reading. Claudia is the Lead TA for 431, Section 1, but all TAs work with both sections. 
-
-## Omar Alaber
-
-```{r Omar-fig, echo = FALSE, out.width = '33%'}
-knitr::include_graphics("figures/Omar.jpg")
-```
-
-Omar Alaber, MD, is a 2008 international medical graduate from Al Mergib University, Faculty of Medicine. He is in his second year in the Clinical Research Masters' Program (CRSP). Before he came to the USA in 2014, he was working in Internal Medicine Department as senior house officer (a resident) for about 5 years. Also, he served as a teaching assistant in the Internal Medicine department. Omar's current research focuses on capsule endoscopy, but he is also planning new projects in advanced endoscopy. In his free time, Omar loves spending time with his wonderful wife and two adorable daughters travelling, grilling, or just chatting. Also, he likes playing soccer. Omar is the Lead TA for 431, Section 2, but all TAs work with both sections.
-
-## Kara Quaid
-
-```{r Kara-fig, echo = FALSE, out.width = '33%'}
-knitr::include_graphics("figures/Kara.jpg")
-```
-
-Kara Quaid is a fourth year undergraduate student in the Integrated Graduate Studies program at CWRU. She is pursuing a BS in Statistics and is in her second year in the Masters' Program in Epidemiology and Biostatistics. While taking 431 and 432, she enjoyed learning about and using R and R Studio. Kara is involved in stroke research with the Bioinformatics Section at the National Institute of Neurological Disorders and Stroke, where she puts all of the great skills she learned in 431 and 432 to use. In her spare time, Kara likes to cook and listen to show tunes. 
-
-## Ruzica (Rosie) Conic
-
-```{r Rosie-fig, echo = FALSE, out.width = '33%'}
-knitr::include_graphics("figures/Rosie.jpg")
-```
-
-Ruzica (Rosie) Conic, MD, graduated from Belgrade University School of Medicine in 2015. She is beginning her 3rd year in the Clinical Translational Science PhD. Rosie's research interests are in dermatology (specifically psoriasis, melanoma and hair loss) and utilization of EHRs and large databases for dermatology research. She is also the head of professional development of Women in Sciences and Humanities Earning Doctorates (WISHED) here at CWRU, community of female doctoral students and candidates that aims to provide social and professional resources and tools for individual and collective development. If you're interested in WISHED, let her know! In her free time she likes to play sports.
-
-## Bob Winkelman
-
-```{r Bob-fig, echo = FALSE, out.width = '33%'}
-knitr::include_graphics("figures/Bob.jpg")
-```
-
-Bob Winkelman is a third year student in the MD program at the CWRU School of Medicine. He received his undergraduate degree from Carnegie Mellon University where he majored in Chemical and Biomedical Engineering.  Before coming to CWRU for medical school, Bob also spent 1 year working for Epic, an electronic health record vendor, in Wisconsin. Bob took 431 and 432 last year and has appreciated how the skills he learned in those classes have helped him with his clinical outcomes research at Cleveland Clinic Center for Spine Health.  Bob enjoys playing flag football, exercising, cooking, reading, and listening to podcasts. 
 
 # Expectations, Assessment and Grades
 
@@ -445,10 +405,6 @@ Students often ask how they can improve this part of their grade.  I cannot emph
 # Quizzes
 
 There are three quizzes scheduled. Each Quiz will be taken online, exclusively.
-
-1. Quiz 1 became available at https://goo.gl/vaACbW on Thursday 2017-10-05 and is due Monday 2017-10-09 at noon.
-2. Quiz 2 will be released Thursday 2017-11-09 by 5 PM and is due Tuesday 2017-11-14 at 8 AM.
-3. Quiz 3 will be released Thursday 2017-12-07 by 5 PM and is due Tuesday 2017-12-12 at noon.
 
 - **If you need to make alternate arrangements for a Quiz, please contact Professor Love via email as soon as possible**, and in any case, at least a week before a Quiz is released.
 - A test survey will be completed in September to ensure that you can use the quiz software to submit your results.
