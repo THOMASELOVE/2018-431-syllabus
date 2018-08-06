@@ -112,6 +112,89 @@ Useful prior experience includes training/experience in statistics, coding/progr
 
 People take this course with a wide range of backgrounds and a common interest in using data effectively in research related to biology, health or medicine. There will be multiple people in the class who are years away from their last statistics class, and the vast majority of students will have no prior experience using R, or any meaningful recollection of using statistical software. The pace can be brisk at times, but all CWRU students who feel up to it are welcome, regardless of their field of study or prior experience.
 
+# Dr. Love
+
+```{r Lovepic-fig, echo = FALSE, out.width = '50%'}
+knitr::include_graphics("figures/Love2018.jpg")
+```
+
+Thomas E. Love, Ph.D.
+
+- Professor of Medicine, Population and Quantitative Health Sciences, [CWRU](http://case.edu/)
+- Director of [Biostatistics and Evaluation](http://chrp.org/biostatistics-evaluation/), [Center for Health Care Research & Policy](http://chrp.org/), [MetroHealth Medical Center](https://www.metrohealth.org/research)
+- [Chief Data Scientist](http://www.betterhealthpartnership.org/data_center/), [Better Health Partnership](http://betterhealthpartnership.org/)
+- Track Lead for Health Care Analytics, MS in Biostatistics, [Department of Population and Quantitative Health Sciences](http://epbiwww.case.edu/), CWRU
+- Fellow, [American Statistical Association](http://www.amstat.org/)
+- [John S. Diekhoff Award for Graduate Teaching](https://students.case.edu/traditions/awards/diekhoff/), CWRU, 2018
+
+### Email {-}
+
+- Email to get help with the course: **431-help at case dot edu** (seen by Professor Love and the TAs)
+- Thomas dot Love at case dot edu (for matters related to grades or individual concerns)
+- Dr. Love is hard to reach by phone. Email is always the best way to reach him.
+
+### Offices {-}
+
+- Wood WG-82L on the ground floor of the Wood building (Tuesdays and Thursdays)
+- Rammelkamp R-229A at MetroHealth Medical Center (Wednesdays and Fridays)
+
+Dr. Love is generally available before and after class, otherwise by appointment on Tuesdays and Thursdays (send email to schedule). 
+
+### Web {-}
+
+- Dr. Love's [GitHub pages website](https://thomaselove.github.io/). 
+    + His GitHub name is [THOMASELOVE](https://github.com/thomaselove).
+- His Twitter handle is [ThomasELove](https://twitter.com/ThomasELove).
+
+### A More Complete Biography {-}
+
+Hi. I am Thomas E. Love, Ph.D. and I have at least three different jobs.
+
+- I am a Professor in the Departments of Medicine and Population & Quantitative Health Sciences at Case Western Reserve University. I teach three courses per year there (PQHS 431, 432 and 500) and also lead the Health Care Analytics track of the MS program in Biostatistics.
+- I direct [Biostatistics and Evaluation](http://chrp.org/biostatistics-evaluation/) at the [Center for Health Care Research & Policy](http://chrp.org/), which is a joint venture of CWRU and MetroHealth Medical Center.
+- For ten years, I was the (founding) Data Director for [Better Health Partnership](http://betterhealthpartnership.org/), an alliance of people who provide, pay for and receive care in Northeast Ohio. I now serve as Chief Data Scientist there.
+- I am a Fellow of the American Statistical Association, and have won numerous awards for my teaching and my research. 
+- I have been teaching at CWRU since 1994, and have taught every manner of CWRU student over the years, especially students in biostatistics, medicine, and management.
+
+In research, I use statistical methods to look at questions in health policy and in particular the provision of health services. I mostly work with observational data, rather than data that emerge from randomized clinical trials, and I have a special interest in working with data from electronic health records.
+
+- You may be interested in a [recent study in Health Affairs](http://content.healthaffairs.org/content/34/7/1121.abstract) showing the impact of a [Medicaid-like expansion plan on care and outcomes of poor patients in Cleveland](http://thedaily.case.edu/new-study-shows-prepared-safety-net-improves-care-saves-money-in-medicaid-expansion-population/).
+- Or you might be interested in our [New England Journal of Medicine study](http://www.nejm.org/doi/full/10.1056/NEJMsa1102519) of the effect of electronic health records on the care and outcomes of people with diabetes.
+- In 2011, [James O'Malley](http://tdi.dartmouth.edu/faculty/a-james-omalley-phd) and I chaired the [Ninth International Conference on Health Policy Statistics](https://ww2.amstat.org/meetings/ichps/2011/index.cfm?fuseaction=main), here in Cleveland. Here's a [recap](https://link.springer.com/article/10.1007%2Fs10742-012-0096-8). 
+- I've also worked on many projects involving the use of propensity scores to make causal inferences from observational studies, particularly in heart failure.
+
+If you want to see a [pretty complete list of my publications](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/48415155/?sort=date&direction=ascending), knock yourself out. 
+
+I hold degrees from Columbia University in the City of New York and from the University of Pennsylvania. My dissertation advisor was Paul Rosenbaum. I am married to a brilliant woman who is an attorney downtown, and we are raising two terrific sons, one of whom is a sophomore in college. I live in Shaker Heights. I also do a lot of community theater, and you may hear about that as the semester rolls on.
+
+# Teaching Assistants
+
+The teaching assistants for 431 are the people answering **431-help at case dot edu**, and they are the people holding the bulk of our office hours. Each of them has been in your shoes - they've taken the course in the past, and they enjoyed it enough to come back for more. They are volunteering their precious time and energy to help make the course happen, and we couldn't be more delighted to welcome you to the course.
+
+To contact Dr. Love and the TAs, email `431-help at case dot edu`.
+
+## Bob Winkelman
+
+```{r Bobpic-fig, echo = FALSE, out.width = '33%'}
+knitr::include_graphics("figures/Bob.jpg")
+```
+
+## Satyakam Mishra
+
+## Claudia Cabrera
+
+```{r Claudiapic-fig, echo = FALSE, out.width = '33%'}
+knitr::include_graphics("figures/Claudia.png")
+```
+
+## Maher Kazimi
+
+## Office Hours for TAs
+
+Teaching Assistant Office Hours are held in WG-56 (Computing Lab) or WG-67 (Student Lounge) on the ground floor of the Wood building, so be sure to look in both places if you need help. 
+
+TA office hours will start on Tuesday, September 4, and we'll specify the details as soon as possible.
+
 # Software
 
 The course makes heavy use of the R statistical programming language. Details on downloading and installing R and the development environment, R Studio, for either PC or Mac, are provided below.
@@ -262,73 +345,6 @@ There are several curated lists of data science blogs online, for example, see h
 
 1. The `swirl` package in R can be a great help for people learning R programming and data science. Find out more about it at http://swirlstats.com/students.html
 2. UCLA's Institute for Digital Research and Education has some great [Data Analysis Examples](https://stats.idre.ucla.edu/other/dae/) using R (and other software.)
-
-# Dr. Love
-
-```{r Lovepic-fig, echo = FALSE, out.width = '33%'}
-knitr::include_graphics("figures/Love-picB.jpg")
-```
-
-Thomas E. Love, Ph.D.
-
-- Professor of Medicine, Population and Quantitative Health Sciences, [CWRU](http://case.edu/)
-- Director of [Biostatistics and Evaluation](http://chrp.org/biostatistics-evaluation/), [Center for Health Care Research & Policy](http://chrp.org/), [MetroHealth Medical Center](https://www.metrohealth.org/research)
-- [Chief Data Scientist](http://www.betterhealthpartnership.org/data_center/), [Better Health Partnership](http://betterhealthpartnership.org/)
-- Track Lead for Health Care Analytics, MS in Biostatistics, [Department of Population and Quantitative Health Sciences](http://epbiwww.case.edu/), CWRU
-- Fellow, [American Statistical Association](http://www.amstat.org/)
-
-### Email {-}
-
-- Email to get help with the course: **431-help at case dot edu** (seen by Professor Love and the TAs)
-- Thomas dot Love at case dot edu (for matters related to grades or individual concerns)
-- Dr. Love is hard to reach by phone. Email is always the best way to reach him.
-
-### Offices {-}
-
-- Wood WG-82L on the ground floor of the Wood building (Tuesdays and Thursdays)
-- Rammelkamp R-229A at MetroHealth Medical Center (Wednesdays and Fridays)
-
-Dr. Love is generally available before and after class, otherwise by appointment on Tuesdays and Thursdays (send email to schedule). 
-
-### Web {-}
-
-- Dr. Love's [GitHub pages website](https://thomaselove.github.io/). 
-    + His GitHub name is [THOMASELOVE](https://github.com/thomaselove).
-- His Twitter handle is [@ThomasELove](https://twitter.com/ThomasELove).
-
-### A More Complete Biography {-}
-
-Hi. I am Thomas E. Love, Ph.D. and I have at least three different jobs.
-
-- I am a Professor in the Departments of Medicine and Population & Quantitative Health Sciences at Case Western Reserve University. I teach three courses per year there (PQHS 431, 432 and 500) and also lead the Health Care Analytics track of the MS program in Biostatistics.
-- I direct [Biostatistics and Evaluation](http://chrp.org/biostatistics-evaluation/) at the [Center for Health Care Research & Policy](http://chrp.org/), which is a joint venture of CWRU and MetroHealth Medical Center.
-- For ten years, I was the (founding) Data Director for [Better Health Partnership](http://betterhealthpartnership.org/), an alliance of people who provide, pay for and receive care in Northeast Ohio. I now serve as Chief Data Scientist there.
-- I am a Fellow of the American Statistical Association, and have won numerous awards for my teaching and my research. 
-- I have been teaching at CWRU since 1994, and have taught every manner of CWRU student over the years, especially students in biostatistics, medicine, and management.
-
-In research, I use statistical methods to look at questions in health policy and in particular the provision of health services. I mostly work with observational data, rather than data that emerge from randomized clinical trials, and I have a special interest in working with data from electronic health records.
-
-- You may be interested in a [recent study in Health Affairs](http://content.healthaffairs.org/content/34/7/1121.abstract) showing the impact of a [Medicaid-like expansion plan on care and outcomes of poor patients in Cleveland](http://thedaily.case.edu/new-study-shows-prepared-safety-net-improves-care-saves-money-in-medicaid-expansion-population/).
-- Or you might be interested in our [New England Journal of Medicine study](http://www.nejm.org/doi/full/10.1056/NEJMsa1102519) of the effect of electronic health records on the care and outcomes of people with diabetes.
-- In 2011, [James O'Malley](http://tdi.dartmouth.edu/faculty/a-james-omalley-phd) and I chaired the [Ninth International Conference on Health Policy Statistics](https://ww2.amstat.org/meetings/ichps/2011/index.cfm?fuseaction=main), here in Cleveland. Here's a [recap](https://link.springer.com/article/10.1007%2Fs10742-012-0096-8). We may chair it again in 2021.
-- I've also worked on many projects involving the use of propensity scores to make causal inferences from observational studies, particularly in heart failure.
-
-If you want to see a [pretty complete list of my publications](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/48415155/?sort=date&direction=ascending), knock yourself out. 
-
-I hold degrees from Columbia University in the City of New York and from the University of Pennsylvania. My dissertation advisor was Paul Rosenbaum. I am married to a brilliant woman and we are raising two terrific sons, one of whom just started college. I live in Shaker Heights.
-
-# Teaching Assistants
-
-The teaching assistants for 431 this year will be determined this summer. They are the people answering 431-help at case dot edu, and they are the people holding the bulk of our office hours. Each of them has been in your shoes - they've taken the course in the past, and they enjoyed it enough to come back for more. Many have volunteered their precious time and energy to help make the course happen, and we couldn't be more delighted to welcome you to the course.
-
-To contact the TAs, email `431-help at case dot edu`.
-
-## Office Hours for TAs
-
-Teaching Assistant Office Hours are held in WG-56 (Computing Lab) or WG-67 (Student Lounge) on the ground floor of the Wood building, so be sure to look in both places if you need help. 
-
-TA office hours will be specified in early September.
-
 
 # Expectations, Assessment and Grades
 
