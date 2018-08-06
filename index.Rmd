@@ -1,7 +1,7 @@
 ---
 title: "431 Syllabus - Fall 2018"
 author: "Thomas E. Love, Ph.D."
-date: "Version `r Sys.Date()`"
+date: "Version `r Sys.time()`"
 site: bookdown::bookdown_site
 documentclass: book
 output:
@@ -9,11 +9,9 @@ output:
   bookdown::pdf_book: default
 ---
 
-# This is a DRAFT! {-}
-
-Note that this is a DRAFT syllabus used for testing purposes only, and will change drastically in the weeks to come. Everything in this document is subject to substantial change before class begins at 1 PM on 2018-08-28 in Room E321-323 in the Robbins Building at the School of Medicine.
-
 # Critical Information {-}
+
+Note that this is a **DRAFT syllabus used for testing purposes only**, and will change drastically in the weeks to come. Everything in this document is subject to substantial change before class begins at 1 PM on 2018-08-28 in Room E321-323 in the Robbins Building at the School of Medicine.
 
 ```{r cwrulogo-fig, echo = FALSE, out.width = '20%'}
 knitr::include_graphics("figures/cwru-stacked-logo-blue-no-tag.jpg")
@@ -41,104 +39,54 @@ The course is formally titled *Statistical Methods in Biological & Medical Scien
 
 We'll learn about managing and visualizing data, building models and making predictions, and other "data science" activities. This highly applied course focuses on modern, more than classical, tools for learning from data. We'll learn a lot of R, and we'll use R Studio and Markdown as tools to help make R work better, and perform our research in replicable ways.
 
-## 431 in Three Parts
+## The Student's Experience
 
-- Part A is basically August/September and is about Visualizing Data. 
-- Part B happens in October, and is about Making Comparisons. 
-- Part C is in November/December. It's about Building Regression Models. 
+During the 431-432 sequence, students will:
 
-## What will you be doing in the 431-432 sequence?
+1. Use modern data science tools to import, tidy/manage, explore (through transforming, visualizing, and modeling) and communicate about data.
+2. Think hard and well about design and analysis in scientific research. We want students to see the value of statistical thinking throughout the process of doing scientific research.
+3. Program ("Code") in R sufficiently to accomplish the tasks above, with enough self-sufficiency afterwards to be able to debug and use new R tools without substantial troubleshooting help from others. What separates "doing data science" from "doing data analysis" is programming.
+4. Learn about the importance of replicable research, and developing facility and practice in open source tools (R Markdown, and GitHub, mostly) all the time, as a matter of course.
+5. Gain sufficient background in the practical issues regarding linear and generalized linear models (a big example: missing data) to give you a starting place for meaningful applied work, particularly in terms of making comparisons to address general types of statistical and analytic questions (exploratory, predictive, inferential, and causal, in particular.)
+6. Complete a series of assignments, including homeworks and quizzes on data provided for you, and course projects using data you select/develop. 
 
-1. Using modern data science tools to import, tidy/manage, explore (through transforming, visualizing, and modeling) and communicate about data.
-2. Thinking hard, and well, about design and analysis in scientific research. We want students to see the value of statistical thinking throughout the process of doing scientific research.
-3. Programming in R sufficient to accomplish the tasks above, with enough self-sufficiency afterwards to be able to debug and use new R tools without substantial troubleshooting help from others. What separates "doing data science" from "doing data analysis" is programming.
-4. Learning about the importance of replicable research, and developing facility and practice in open source tools (R Markdown, and GitHub, mostly) all the time, as a matter of course.
-5. Gaining sufficient background in the practical issues regarding linear and generalized linear models (a big example: missing data) to give you a starting place for meaningful applied work, particularly in terms of making comparisons to address general types of statistical and analytic questions (exploratory, predictive, inferential, and causal, in particular.)
+## 431 Class Outline
 
-## What do we assume you know before you take the course?
+The 431 course **calendar** is linked at https://github.com/THOMASELOVE/431-2018. Go there for details on each class throughout the semester. 
 
-Not much. Useful prior experience includes training/experience in statistics, coding/programming and biology/biomedical science. We expect most people will have some experience in one or two of these areas, but very few have all three.
+The course is split in three parts. 
 
-- Some students have lots of prior training in statistics. But there are many students in the class with no statistical training at all that they use regularly. We assume only that everyone knows what an average is, and has some sense of why statistics might be useful to them in their chosen field.  
-- Some students have lots of prior coding and programming experience, including experience with R. Some have never written a line of code in their life.  We assume only that everyone is willing to learn how to do modern work with data, and that means writing computer code, but that some people will be starting from nothing.
-- Some students have lots of prior experience with biological and biomedical science, and know a lot of useful things in those areas which relate directly to our work. Others have zero experience in this area, and will learn a lot from their colleagues. We assume only that everyone is willing to learn, and to put in some effort to do so.
+**Part A** (Classes 2-9) is mostly about R and Visualizing Data. 
 
-People take this course with a wide range of backgrounds and a common interest in using data effectively in research related to biology, health or medicine. There will be multiple people in the class who are years away from their last statistics class, and the vast majority of students will have no prior experience using R, or any meaningful recollection of using statistical software. The pace can be brisk at times, but all CWRU students who feel up to it are welcome, regardless of their field of study or prior experience.
+- Exploratory Data Analysis
+    - Descriptive Numerical and Graphical Summaries
+    - Distributions, specifically the Normal
+    - Histograms and their cousins
+    - Scatterplots and related tools from correlation and linear regression
+- Exploring Data with the Tidyverse, Getting Up To Speed with R
+    - Visualizing Data with `ggplot2`
+    - Data Transformation and `dplyr`
+    - Using scripts and projects, Building Code
+    
+**Part B** (Classes 10-17) is about Making Comparisons. 
 
-## What will we learn in 432?
+- Estimation and Inference for Means and Proportions
+    - Confidence Intervals
+    - Design Implications: Matched vs. Independent Samples
+    - Hypothesis Testing Strategies
+    - Cross-Tabulations
+    - The Analysis of Variance and Multiple Comparisons
+    - Dealing with Missing Data
+    - Randomized Trials vs. Non-Randomized Studies
 
-If you have specific questions about 432 not addressed here, just ask Dr. Love.
+**Part C** (Classes 18-27) is about Building Regression Models. 
 
-# Class Schedule
+- Estimation and Inference using Ordinary Least Squares
+    - Building Prediction Models, and Validating Them
+    - Residual and Influence Analyses
+    - Foundations of Model Selection
 
-As mentioned, the course divides neatly into three parts.
-
-- Part A begins in Class 2 and is about Visualizing Data. 
-- Part B begins in Class 10 or so, and is about Making Comparisons. 
-- Part C begins with class 19 or so. It's about Building Regression Models. 
-
-But within those Parts, we jump around. A lot. 
-
-The first five classes are more about R and R Studio than about statistics. Once everyone's gotten rolling, our approach changes a bit to focus more on statistical concerns, and less on the technology.
-
-This is only a **tentative schedule**, but we'll wind up in the same place. 
-
-Class | Date | Topics | Readings
------: | ----------: | ------------------------------------- | ---------
-1 | 2018-08-28 | Introduction, Getting Started | Syllabus
-2 | 2018-08-30 | **Part A. Visualizing Data**, R and R Studio | 
-3 | 2018-09-04 | Exploring Data and the Tidyverse | 
-4 | 2018-09-06 | Scripts and Projects in R/R Studio | Leek 5, 9, 10, 13
-5 | 2018-09-11 | Data Transformation and dplyr | Silver, Intro and Chapter 1
-6 | 2018-09-13 | Exploratory Data Analysis | 
-- | - | Assignment 1 due at noon.
-7 | 2018-09-18 | Descriptive Statistics, The Normal Distribution |
-8 | 2018-09-20 | Using `ggplot2` more effectively |
-- | - | Assignment 2 due at noon.
-9 | 2018-09-25 | Linear regression and correlation | Silver, 2-3
-10 | 2018-09-27 | Studying associations |
-- | - | Assignment 3 due at noon.
-11 | 2018-10-02 | **Part B: Making Comparisons** | Leek 1-4 and 12
-12 | 2018-10-04 | Confidence intervals for Means | Quiz 1 provided to you.
-- | - | Quiz 1 due at noon. |
-13 | 2018-10-09 | Matched Pairs, Independent Samples | Leek 6, Silver 4-5
-14 | 2018-10-11 | Hypothesis Testing Strategies |
--  | - | Project Task A due at noon.
-15 | 2018-10-16 | The Analysis of Variance and Related Tools | Silver 7-8
-16 | 2018-10-18 | Multiple Comparisons | 
--  | - | Project Task B due at noon.
--- | *2018-10-23* | *CWRU Fall Break (no class)* | --
-17 | 2018-10-25 | Comparing Two Means - Set Up Survey | 
--  | - | Assignment 4 due at noon.
-18 | 2018-10-30 | ANOVA - Comparing Multiple Means |
-19 | 2018-11-01 | **Part C: Building Effective Models** | Silver through 11
-20 | 2018-11-06 | Building Inferences for Rates |
--  | - | Project Task C due at noon.
--  | - | Assignment 5 due at noon.
-21 | 2018-11-08 | Conclude Part B of course | Quiz 2 provided to you.
--  | - | Quiz 2 due at 8 AM. |
-22 | 2018-11-13 | Begin Part C of course | Leek 7-8
-23 | 2018-11-15 | Estimation and Inference |
--  | - | Project Task D due at noon.
--- | *2018-11-20* | *Class is cancelled.* | --
--- | *2018-11-22* | *CWRU Thanksgiving Break (no class)* | --
-24 | 2018-11-27 | Residual and Influence Analysis | Silver 12
-25 | 2018-11-29 | Prediction and Validation |
--  | - | Assignment 6 due at noon.
-26 | 2018-12-04 | More Modeling Content | Silver finish book
-27 | 2018-12-06 | Looking Back, and Forward | Quiz 3 provided to you.
--  | - | Quiz 3 due at noon. | --
--  | - | Project Task E due at noon.
-
-Final Portfolio Presentations will be held on
-
-- Monday 2018-12-10
-- Tuesday 2018-12-11, and
-- Thursday 2018-12-13
-
-Project presentations will be scheduled as part of Project Task A, and you will know the date and time of your portfolio presentation by 2017-10-18.
-
-## Topics Discussed Extensively in 431 and its follow-up, 432
+## Key Topics in 431 and 432
 
 1. Exploratory Data Analysis: "All graphs are comparisons" including data exploration, statistical graphics and more general visualization of information.
 2. Placing biological, medical and health research questions into a statistical framework.
@@ -154,7 +102,15 @@ Project presentations will be scheduled as part of Project Task A, and you will 
     - Causal inference using regression: controlling for covariates meaningfully.
 7. Using R and R Studio to make all of the things above happen; with particular emphasis on doing replicable research and using Markdown to document the work.
 
-Need more details on course topics? **Dr. Love's 431 book** will be available before the start of class.
+## Pre-Class Knowledge Expectations
+
+Useful prior experience includes training/experience in statistics, coding/programming and biology/biomedical science. We expect most people will have some experience in one or two of these areas, but very few will have all three.
+
+- Some students have lots of prior training in statistics. But there are many students in the class with no statistical training at all that they use regularly. We assume only that everyone knows what an average is, and has some sense of why statistics might be useful to them in their chosen field.  
+- Some students have lots of prior coding and programming experience, including experience with R. Some have never written a line of code in their life.  We assume only that everyone is willing to learn how to do modern work with data, and that means writing computer code, but that some people will be starting from nothing.
+- Some students have lots of prior experience with biological and biomedical science, and know a lot of useful things in those areas which relate directly to our work. Others have zero experience in this area, and will learn a lot from their colleagues. We assume only that everyone is willing to learn, and to put in some effort to do so.
+
+People take this course with a wide range of backgrounds and a common interest in using data effectively in research related to biology, health or medicine. There will be multiple people in the class who are years away from their last statistics class, and the vast majority of students will have no prior experience using R, or any meaningful recollection of using statistical software. The pace can be brisk at times, but all CWRU students who feel up to it are welcome, regardless of their field of study or prior experience.
 
 # Software
 
@@ -403,6 +359,8 @@ Students often ask how they can improve this part of their grade.  I cannot emph
     + See a cool visualization online? A nice use of statistical methods or design in a paper? Share them with us, at `431-help at case dot edu`.
 3. Mindlessness and poor planning are unimpressive. Be smart and **plan ahead**. Do the work on your end first. In the last 18 hours before something is due, we generally do not answer questions, deliberately. 
 
+We assume you will attend all classes. If you need to miss one, it's your job to ensure that you get ahold of all relevant materials, and meet all deadlines, but there is no need to let Dr. Love know about in advance **unless** you are going to miss more than one class in a row.
+
 # Quizzes
 
 There are three quizzes scheduled. Each Quiz will be taken online, exclusively.
@@ -485,13 +443,15 @@ All materials and information related to the project are maintained at https://g
 16. To the extent possible, don't use `computer-ese` to label variables, plots or tables.  R and Markdown allow you to change the labels on graphs and tables to meaningful things -- do so.  Use meaningful abbreviations, as necessary, explaining what they mean on the first usage.
 17. When in doubt, err on the side of clarity. Clear thinking, clear writing.
 
+
+
 # General Course Policies
 
 1. Any concerns or questions regarding these general policies, the teaching assistants or the course itself should be directed to Dr. Love, if at all possible.
 2. All student work is subject to the University's policies and procedures. 
 3. **Registration is required**. I do not permit anyone to audit the course, without exception.
 4. **Grading**. You are not in competition with each other for grades. I have no set percentage of students who will receive any particular grade.
-5. **Attendance** is expected, and your absence will be noted. If you need to miss class, inform Dr. Love via email before the class you will miss, or as soon as possible thereafter. I will assume you have a good reason - details are **not** necessary. You are responsible for all missed work, regardless of the reason for your absence. All work is turned in electronically, except for the final project presentation.
+5. **Attendance** is expected, and your absence will be noted. If you need to miss more than one class in a row, inform Dr. Love via email beforehand, or as soon as possible thereafter. I will assume you have a good reason - details are **not** necessary. You are responsible for all missed work, regardless of the reason for your absence. All work is turned in electronically, except for the final project presentation.
 6. **Late work is unacceptable** under anything but the most harrowing of circumstances. Dr. Love (via email) is the person to discuss this with, at least 48 hours prior to the deadline, if you feel your circumstances are sufficiently dire to warrant an exception. It is far better to turn in timely, but only partially complete work than nothing at all.
 7. **Feedback on assignments - deadline.** On every assignment, Quiz, project-related task, whatever, we will be delighted to respond to email questions **up to 18 hours before** the assignment is due. After that time, you are on your own. The reason for this is that Dr. Love and the teaching assistants will regularly post responses to frequently asked questions about assignments, and we need sufficient time to accomplish this task.
 8. **On Getting Help Quickly and Effectively**: In general, we don't have a way to diagnose your problem with R, R Studio or Markdown if you don't show us what you're typing that causes an error, or a lack of results. If you wrote a Markdown file, send it, along with a specific question (or series of them) about specific error messages or strange results you are getting. We need to replicate the problem in order to know how to fix your problem, and it also helps if we know what error message you're seeing, or what strange result you are getting.
@@ -517,3 +477,68 @@ In mid-December, **after** Dr. Love has worked out what letter grade to give eac
 
 The main advantage of this system is that it saves all of us (you, the TAs, and Dr. Love) the hassle of haggling over points that are never going to mean anything anyway. It also provides "equal access" to students who are too timid to approach us in person with their concerns. Finally, if there is an issue with grading a particular problem or assignment that needs to be reconsidered, Dr. Love will have access to all papers and can make a universal decision^[I got this idea from Jessica Utts at http://www.amstat.org/publications/jse/v22n2/rossmanint.pdf.]
 
+
+# Necessary?
+
+
+
+But within those Parts, we jump around. A lot. 
+
+An outline of the course schedule follows. The more detailed calendar is at 
+
+This is only a **tentative schedule**, but we'll wind up in the same place. 
+
+Class | Date | Topics | Readings
+-----: | ----------: | ------------------------------------- | ---------
+1 | 2018-08-28 | Introduction, Getting Started | Syllabus
+2 | 2018-08-30 | **Part A. Visualizing Data**, R and R Studio | 
+3 | 2018-09-04 | Exploring Data and the Tidyverse | 
+4 | 2018-09-06 | Scripts and Projects in R/R Studio | Leek 5, 9, 10, 13
+5 | 2018-09-11 | Data Transformation and dplyr | Silver, Intro and Chapter 1
+6 | 2018-09-13 | Exploratory Data Analysis | 
+- | - | Assignment 1 due at noon.
+7 | 2018-09-18 | Descriptive Statistics, The Normal Distribution |
+8 | 2018-09-20 | Using `ggplot2` more effectively |
+- | - | Assignment 2 due at noon.
+9 | 2018-09-25 | Linear regression and correlation | Silver, 2-3
+10 | 2018-09-27 | Studying associations |
+- | - | Assignment 3 due at noon.
+11 | 2018-10-02 | **Part B: Making Comparisons** | Leek 1-4 and 12
+12 | 2018-10-04 | Confidence intervals for Means | Quiz 1 provided to you.
+- | - | Quiz 1 due at noon. |
+13 | 2018-10-09 | Matched Pairs, Independent Samples | Leek 6, Silver 4-5
+14 | 2018-10-11 | Hypothesis Testing Strategies |
+-  | - | Project Task A due at noon.
+15 | 2018-10-16 | The Analysis of Variance and Related Tools | Silver 7-8
+16 | 2018-10-18 | Multiple Comparisons | 
+-  | - | Project Task B due at noon.
+-- | *2018-10-23* | *CWRU Fall Break (no class)* | --
+17 | 2018-10-25 | Comparing Two Means - Set Up Survey | 
+-  | - | Assignment 4 due at noon.
+18 | 2018-10-30 | ANOVA - Comparing Multiple Means |
+19 | 2018-11-01 | **Part C: Building Effective Models** | Silver through 11
+20 | 2018-11-06 | Building Inferences for Rates |
+-  | - | Project Task C due at noon.
+-  | - | Assignment 5 due at noon.
+21 | 2018-11-08 | Conclude Part B of course | Quiz 2 provided to you.
+-  | - | Quiz 2 due at 8 AM. |
+22 | 2018-11-13 | Begin Part C of course | Leek 7-8
+23 | 2018-11-15 | Estimation and Inference |
+-  | - | Project Task D due at noon.
+-- | *2018-11-20* | *Class is cancelled.* | --
+-- | *2018-11-22* | *CWRU Thanksgiving Break (no class)* | --
+24 | 2018-11-27 | Residual and Influence Analysis | Silver 12
+25 | 2018-11-29 | Prediction and Validation |
+-  | - | Assignment 6 due at noon.
+26 | 2018-12-04 | More Modeling Content | Silver finish book
+27 | 2018-12-06 | Looking Back, and Forward | Quiz 3 provided to you.
+-  | - | Quiz 3 due at noon. | --
+-  | - | Project Task E due at noon.
+
+Final Portfolio Presentations will be held on
+
+- Monday 2018-12-10
+- Tuesday 2018-12-11, and
+- Thursday 2018-12-13
+
+Project presentations will be scheduled as part of Project Task A, and you will know the date and time of your portfolio presentation by 2017-10-18.
