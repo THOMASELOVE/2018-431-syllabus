@@ -169,7 +169,7 @@ I hold degrees from Columbia University in the City of New York and from the Uni
 
 # Teaching Assistants
 
-The teaching assistants for 431 are the people answering **431-help at case dot edu**, and they are the people holding the bulk of our office hours. Each of them has been in your shoes - they've taken the course in the past, and they enjoyed it enough to come back for more. They are volunteering their precious time and energy to help make the course happen, and we couldn't be more delighted to welcome you to the course.
+The teaching assistants for 431 are the people answering **431-help at case dot edu**, and they are the people holding the bulk of our office hours. Each of them has been in your shoes - they've taken the course in the past, and they enjoyed it enough to come back for more. They are volunteering their precious time and energy to help make the course happen, and we couldn't be more delighted to welcome you to the course. There are two sections of this course (Section 1 with Dr. Love, and Section 2 with Dr. Li) but all TAs work with both sections.
 
 To contact Dr. Love and the TAs, email `431-help at case dot edu`.
 
@@ -179,7 +179,15 @@ To contact Dr. Love and the TAs, email `431-help at case dot edu`.
 knitr::include_graphics("figures/Bob.jpg")
 ```
 
+Bob Winkelman is a fourth year student in the M.D. program at the School of Medicine who is also enrolled in the M.S. program in Biostatistics. He received his undergraduate degree from Carnegie Mellon University where he majored in Chemical and Biomedical Engineering. Before coming to CWRU for medical school, Bob also worked for Epic, an electronic health record vendor, in Wisconsin. Bob took 431 and 432 two cycles ago and has appreciated how the skills he learned in those classes have helped him with his clinical outcomes research at Cleveland Clinic Center for Spine Health. Bob enjoys playing flag football, exercising, cooking, reading, and listening to podcasts. Bob is the Lead TA for 431, Section 1, but all TAs work with both sections.
+
 ## Satyakam Mishra
+
+```{r Satyakam-fig, echo = FALSE, out.width = '33%'}
+knitr::include_graphics("figures/Satyakam.jpg")
+```
+
+Satyakam Mishra is in his second year in the M.S. program in Systems Biology and Bioinformatics. He completed his Bachelor's work in Biotechnology in India. He is primarily interested in the applications of statistical ideas in genetics research, and is currently analyzing conformational changes in protein structures with varying ligand-receptor combinations. The 431 and 432 coursework has turned out to be immensely useful in his thesis work. Satyakam's hobbies include cooking, reading and watching sports, and he enjoys outdoor activities, such as hiking and trekking. Satyakam is the Lead TA for 431, Section 2, but all TAs work with both sections.
 
 ## Claudia Cabrera
 
@@ -187,7 +195,15 @@ knitr::include_graphics("figures/Bob.jpg")
 knitr::include_graphics("figures/Claudia.png")
 ```
 
+Claudia Cabrera, MD, graduated from Monterrey Institute of Technology and Higher Education Medical School in 2012 and is in the Masters' Program in Clinical Research. Before coming to Case, Claudia worked in Bariatric Surgery for two years while also lecturing in Anatomy and Physiology at the same university from which she graduated in Mexico. She took 431 and 432 three years ago and thoroughly enjoyed learning Statistics, especially its applications to medicine. She then served as Lead TA for the course in each of the past two years. Claudia loves doing Clinical Research as well as learning and teaching. Currently her research is related to melanoma and head and neck surgery. In her free time, Claudia loves playing basketball, and reading. 
+
 ## Maher Kazimi
+
+```{r Maherpic-fig, echo = FALSE, out.width = '33%'}
+knitr::include_graphics("figures/Maher.png")
+```
+
+Maher Kazimi is in his second year in the Masters of Public Health program's Population Health Research track. He is an international medical graduate from Jordan, and has practiced medicine in Jordan and Germany as a part of his internship in primary care medicine. He does research work in large data bases describing outcomes for transplant patients (with data from the United Network for Organ Sharing) and emergency department visits (from the Nationwide Emergency Department Sample.) He is also a part of the Health Data Matters team project at the Department of Population and Quantitative Health Sciences.
 
 ## Office Hours for TAs
 
