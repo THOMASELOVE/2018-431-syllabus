@@ -11,44 +11,59 @@ output:
 
 # Critical Information {-}
 
-Note that this is a **DRAFT syllabus used for testing purposes only**, and will change drastically in the weeks to come. Everything in this document is subject to substantial change before class begins at 1 PM on 2018-08-28 in Room E321-323 in the Robbins Building at the School of Medicine.
-
-```{r cwrulogo-fig, echo = FALSE, out.width = '20%'}
-knitr::include_graphics("figures/cwru-stacked-logo-blue-no-tag.jpg")
-```
-
-This is the Fall 2018 syllabus page for PQHS / CRSP / MPHP 431: Statistical Methods in Biological & Medical Sciences, Section 1, taught by Professor Thomas Love. The course is given on Tuesdays and Thursdays from 1:00 to 2:15 PM, in Robbins Room E321-323.
+This is the Fall 2018 syllabus for PQHS / CRSP / MPHP 431: Statistical Methods in Biological & Medical Sciences, Section 1.
 
 ## Course Home Page {-}
 
-The course home page, with links to everything else you'll need, is at https://github.com/THOMASELOVE/431-2018
+The course home page, with everything you'll need, is at https://github.com/THOMASELOVE/431-2018
+
+## Who, When and Where? {-}
+
+- Section 1 is taught by Professor Thomas Love. 
+- The Fall 2018 teaching assistants are Bob Winkleman, Satyakam Mishra, Claudia Cabrera and Maher Kazimi. 
+- Once the semester begins, reach us at **431-help at case dot edu**. 
+- The course is given on Tuesdays and Thursdays from 1:00 to 2:15 PM, in Room E321-323 in the Robbins building at the School of Medicine.
+- The first class is Tuesday 2018-08-28.
 
 ## Getting Help! {-}
 
 To get help for anything related to the course, email **431-help at case dot edu**.
 
-- Dr. Love is available on Tuesdays and Thursdays at CWRU, by appointment. To make an appointment, email him at `thomas.love@case.edu`. He is usually available for 15-30 minutes both before and after class for drop-in conversations. His office is Wood WG-82 L.
+- Dr. Love is available on Tuesdays and Thursdays at CWRU, by appointment. To make an appointment, email him at `thomas.love@case.edu`. He is usually available for 15-30 minutes both before and after class for drop-in conversations. His office is on the ground floor of the Wood building, WG-82 L.
     + If you have any special concerns about the course, need special accommodations or any other issues for Dr. Love, please email or stop by before or after class.
-- TA office hours will be more extensive, and will begin in early September. A schedule will be announced as soon as possible. Those office hours are held either in the computing lab (WG-56) or the student lounge (WG-67) on the ground floor of the Wood building, depending mostly on the TA's preference that day.
+- TA office hours will be more extensive, and begin 2018-09-04. Those office hours are held on the ground floor of the Wood building, in the computing lab (WG-56) or the student lounge (WG-67).
+
+## What Do I Need To Buy? {-}
+
+We'll read two books that you'll need to purchase (the combined price is about \$25.):
+
+1. Nate Silver's *The Signal and The Noise*. ISBN-13: 978-1594204111 [Amazon Link](https://www.amazon.com/Signal-Noise-Many-Predictions-Fail-but/dp/0143125087), and 
+2. Jeff Leek's *The Elements of Data Analytic Style*, available at https://leanpub.com/datastyle.
+
+Everything else you need is free, and is described in the remainder of this syllabus.
+
+```{r cwrulogo-fig, echo = FALSE, out.width = '20%'}
+knitr::include_graphics("figures/cwru-stacked-logo-blue-no-tag.jpg")
+```
 
 # Course Description
 
-PQHS 431 (cross-listed as CRSP 431 and MPHP 431) is the first half of a two-semester sequence (with PQHS 432) focused on modern data analysis and advanced statistical modeling, with a practical bent and as little theory as possible. We emphasize the key role of thinking hard, and well, about design and analysis in research. 
+PQHS 431 (cross-listed as CRSP 431 and MPHP 431) is the first half of a two-semester sequence (with 432) focused on modern data analysis and advanced statistical modeling, with a practical bent and as little theory as possible. We emphasize the key role of thinking hard, and well, about design and analysis in research. 
 
 The course is formally titled *Statistical Methods in Biological & Medical Sciences, Part 1.* A more accurate title is **Data Science for Biological, Medical or Health Research**.
 
-We'll learn about managing and visualizing data, building models and making predictions, and other "data science" activities. This highly applied course focuses on modern, more than classical, tools for learning from data. We'll learn a lot of R, and we'll use R Studio and Markdown as tools to help make R work better, and perform our research in replicable ways.
+We'll learn about managing and visualizing data, building models and making predictions, and other data science activities. This highly applied course focuses on modern tools for learning from data. We'll learn a lot of R, and we'll use R Studio and R Markdown as tools to help make R work better, and help perform our research in replicable ways.
 
-## The Student's Experience
+## What Students Should Expect
 
 During the 431-432 sequence, students will:
 
-1. Use modern data science tools to import, tidy/manage, explore (through transforming, visualizing, and modeling) and communicate about data.
-2. Think hard and well about design and analysis in scientific research. We want students to see the value of statistical thinking throughout the process of doing scientific research.
-3. Program ("Code") in R sufficiently to accomplish the tasks above, with enough self-sufficiency afterwards to be able to debug and use new R tools without substantial troubleshooting help from others. What separates "doing data science" from "doing data analysis" is programming.
-4. Learn about the importance of replicable research, and developing facility and practice in open source tools (R Markdown, and GitHub, mostly) all the time, as a matter of course.
-5. Gain sufficient background in the practical issues regarding linear and generalized linear models (a big example: missing data) to give you a starting place for meaningful applied work, particularly in terms of making comparisons to address general types of statistical and analytic questions (exploratory, predictive, inferential, and causal, in particular.)
-6. Complete a series of assignments, including homeworks and quizzes on data provided for you, and course projects using data you select/develop. 
+1. Use modern data science tools to import, tidy/manage, explore (through transformation, visualization and modeling) and communicate about data.
+2. Think hard and well about design and analysis in scientific research.
+3. Gain sufficient background in the practical issues regarding linear and generalized linear models to give you a starting place for meaningful applied work, particularly in terms of making comparisons to address general types of statistical and analytic questions (exploratory, predictive, inferential, and causal, in particular.)
+4. Learn about the importance of replicable research, and develop facility and practice in open source tools for doing it.
+5. Complete a series of assignments, including homeworks and quizzes on data provided for you, and course projects using data you select/develop. 
+6. Program ("Code") in R sufficiently to accomplish the tasks above, with enough self-sufficiency afterwards to be able to debug and use new R tools without substantial troubleshooting help. What separates "doing data science" from "doing data analysis" is programming.
 
 ## 431 Class Outline
 
@@ -102,7 +117,9 @@ The course is split in three parts.
     - Causal inference using regression: controlling for covariates meaningfully.
 7. Using R and R Studio to make all of the things above happen; with particular emphasis on doing replicable research and using Markdown to document the work.
 
-## Pre-Class Knowledge Expectations
+## What We Expect You To Know Already
+
+Not much.
 
 Useful prior experience includes training/experience in statistics, coding/programming and biology/biomedical science. We expect most people will have some experience in one or two of these areas, but very few will have all three.
 
@@ -110,7 +127,9 @@ Useful prior experience includes training/experience in statistics, coding/progr
 - Some students have lots of prior coding and programming experience, including experience with R. Some have never written a line of code in their life.  We assume only that everyone is willing to learn how to do modern work with data, and that means writing computer code, but that some people will be starting from nothing.
 - Some students have lots of prior experience with biological and biomedical science, and know a lot of useful things in those areas which relate directly to our work. Others have zero experience in this area, and will learn a lot from their colleagues. We assume only that everyone is willing to learn, and to put in some effort to do so.
 
-People take this course with a wide range of backgrounds and a common interest in using data effectively in research related to biology, health or medicine. There will be multiple people in the class who are years away from their last statistics class, and the vast majority of students will have no prior experience using R, or any meaningful recollection of using statistical software. The pace can be brisk at times, but all CWRU students who feel up to it are welcome, regardless of their field of study or prior experience.
+People succeed in this course with a wide range of backgrounds and a common interest in using data effectively in research related to biology, health or medicine. There will be multiple people in the class who are years away from their last statistics class. We expect the majority of students will have no prior experience using R, or any meaningful recollection of using statistical software. 
+
+The pace can be brisk at times, but all CWRU students who feel up to it are welcome, regardless of their field of study or prior experience.
 
 # Dr. Love
 
@@ -125,12 +144,12 @@ Thomas E. Love, Ph.D.
 - [Chief Data Scientist](http://www.betterhealthpartnership.org/data_center/), [Better Health Partnership](http://betterhealthpartnership.org/)
 - Track Lead for Health Care Analytics, MS in Biostatistics, [Department of Population and Quantitative Health Sciences](http://epbiwww.case.edu/), CWRU
 - Fellow, [American Statistical Association](http://www.amstat.org/)
-- [John S. Diekhoff Award for Graduate Teaching](https://students.case.edu/traditions/awards/diekhoff/), CWRU, 2018
+- 2018 winner of the [John S. Diekhoff Award for Graduate Teaching](https://students.case.edu/traditions/awards/diekhoff/), CWRU
 
 ### Email {-}
 
 - Email to get help with the course: **431-help at case dot edu** (seen by Professor Love and the TAs)
-- Thomas dot Love at case dot edu (for matters related to grades or individual concerns)
+- `Thomas dot Love at case dot edu` (for matters related to grades or individual concerns)
 - Dr. Love is hard to reach by phone. Email is always the best way to reach him.
 
 ### Offices {-}
@@ -165,13 +184,19 @@ In research, I use statistical methods to look at questions in health policy and
 
 If you want to see a [pretty complete list of my publications](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/48415155/?sort=date&direction=ascending), knock yourself out. 
 
-I hold degrees from Columbia University in the City of New York and from the University of Pennsylvania. My dissertation advisor was Paul Rosenbaum. I am married to a brilliant woman who is an attorney downtown, and we are raising two terrific sons, one of whom is a sophomore in college. I live in Shaker Heights. I also do a lot of community theater, and you may hear about that as the semester rolls on.
+I hold degrees from Columbia University in the City of New York and from the University of Pennsylvania. My dissertation advisor was Paul Rosenbaum. I am married to a brilliant woman who is an attorney downtown, and we are raising two terrific sons, who are sophomores in college and high school. I live in Shaker Heights. I also sing and act occasionally in community theater.
 
 # Teaching Assistants
 
-The teaching assistants for 431 are the people answering **431-help at case dot edu**, and they are the people holding the bulk of our office hours. Each of them has been in your shoes - they've taken the course in the past, and they enjoyed it enough to come back for more. They are volunteering their precious time and energy to help make the course happen, and we couldn't be more delighted to welcome you to the course. There are two sections of this course (Section 1 with Dr. Love, and Section 2 with Dr. Li) but all TAs work with both sections.
+Each of this year's stellar group of teaching assistants has been in your shoes - they've taken the course in the past, and they enjoyed it enough to come back for more. They are volunteering their precious time and energy to help make the course happen, and we couldn't be more delighted to welcome you to the course. There are two sections of this course (Section 1 with Dr. Love, and Section 2 with Dr. Li) but all TAs work with both sections.
 
-To contact Dr. Love and the TAs, email `431-help at case dot edu`.
+To contact Dr. Love and the TAs, email **431-help at case dot edu**.
+
+## Office Hours for TAs
+
+Teaching Assistant Office Hours are held in WG-56 (Computing Lab) or WG-67 (Student Lounge) on the ground floor of the Wood building, so be sure to look in both places if you need help. 
+
+TA office hours will start on Tuesday, September 4, and we'll specify further details as soon as possible.
 
 ## Bob Winkelman
 
@@ -205,15 +230,11 @@ knitr::include_graphics("figures/Maher.png")
 
 Maher Kazimi is in his second year in the Masters of Public Health program's Population Health Research track. He is an international medical graduate from Jordan, and has practiced medicine in Jordan and Germany as a part of his internship in primary care medicine. He does research work in large data bases describing outcomes for transplant patients (with data from the United Network for Organ Sharing) and emergency department visits (from the Nationwide Emergency Department Sample.) He is also a part of the Health Data Matters team project at the Department of Population and Quantitative Health Sciences.
 
-## Office Hours for TAs
 
-Teaching Assistant Office Hours are held in WG-56 (Computing Lab) or WG-67 (Student Lounge) on the ground floor of the Wood building, so be sure to look in both places if you need help. 
-
-TA office hours will start on Tuesday, September 4, and we'll specify further details as soon as possible.
 
 # Software
 
-The course makes heavy use of the R statistical programming language. Details on downloading and installing R and the development environment, R Studio, for either PC or Mac, are available at https://github.com/THOMASELOVE/431-2018/tree/master/software
+The course makes heavy use of the R statistical programming language. Details on downloading and installing R and the development environment, R Studio, for either PC or Mac, are available at https://github.com/THOMASELOVE/431-2018/blob/master/software/installation.md
 
 There will be many people in the course for whom R is a new experience. I assume no prior R work in the course. You will know a fair amount of R (and some other things, too) after taking the course, though.
 
@@ -223,7 +244,7 @@ We'll also be using the R Markdown tool within R Studio. R Markdown will be taug
 
 R and R Studio are two different things, but each is free software. 
 
-**Complete instructions, with a step-by-step walkthrough, are available at https://github.com/THOMASELOVE/431-2018/tree/master/software**
+**Complete instructions, with a step-by-step walkthrough, are available at https://github.com/THOMASELOVE/431-2018/blob/master/software/installation.md**
 
 If you need more help, you might look at [this terrific resource for Installing R and RStudio](http://stat545.com/block000_r-rstudio-install.html) from Jenny Bryan and the STAT 545 project. These are the people responsible for the great [Happy Git with R](http://happygitwithr.com/) project, which is worth your time, too, if you intend to use Git and GitHub. (Everyone will in 432.)
 
@@ -232,6 +253,8 @@ If you need more help, you might look at [this terrific resource for Installing 
 1. Download and install the latest version of R (version 3.5.1 as of this writing) at http://cran.case.edu/ or https://cran.r-project.org/.
 2. Download and install R Studio (version 1.1.456 or later) at https://www.rstudio.com/products/rstudio/download/#download.
 3. Install some R packages - an R "package" is a collection of functions, data, and documentation that extends the capabilities of R, and is the critical way to get R doing interesting work. To install the packages for our course, follow the instructions at https://github.com/THOMASELOVE/431-2018/blob/master/software/packages.md
+
+# I AM HERE!!
 
 ## Getting Started with the Software, once you've installed
 
