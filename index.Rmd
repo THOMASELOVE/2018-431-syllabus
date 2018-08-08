@@ -209,39 +209,29 @@ Maher Kazimi is in his second year in the Masters of Public Health program's Pop
 
 Teaching Assistant Office Hours are held in WG-56 (Computing Lab) or WG-67 (Student Lounge) on the ground floor of the Wood building, so be sure to look in both places if you need help. 
 
-TA office hours will start on Tuesday, September 4, and we'll specify the details as soon as possible.
+TA office hours will start on Tuesday, September 4, and we'll specify further details as soon as possible.
 
 # Software
 
-The course makes heavy use of the R statistical programming language. Details on downloading and installing R and the development environment, R Studio, for either PC or Mac, are provided below.
+The course makes heavy use of the R statistical programming language. Details on downloading and installing R and the development environment, R Studio, for either PC or Mac, are available at https://github.com/THOMASELOVE/431-2018/tree/master/software
 
 There will be many people in the course for whom R is a new experience. I assume no prior R work in the course. You will know a fair amount of R (and some other things, too) after taking the course, though.
-We'll also be using the Markdown tool within R Studio. R Markdown will be taught in our class, and can be used to generate reproducible reports that appear as .html files or Word documents, just to give two examples.
+
+We'll also be using the R Markdown tool within R Studio. R Markdown will be taught in our class, and can be used to generate reproducible reports that appear as .html files, PDF files or Word documents.
 
 ## Instructions for Installing R and R Studio
 
 R and R Studio are two different things, but each is free software. 
 
-**Complete instructions, with a step-by-step walkthrough, are available at https://github.com/THOMASELOVE/431/blob/master/software-installation-431.md**
+**Complete instructions, with a step-by-step walkthrough, are available at https://github.com/THOMASELOVE/431-2018/tree/master/software**
 
 If you need more help, you might look at [this terrific resource for Installing R and RStudio](http://stat545.com/block000_r-rstudio-install.html) from Jenny Bryan and the STAT 545 project. These are the people responsible for the great [Happy Git with R](http://happygitwithr.com/) project, which is worth your time, too, if you intend to use Git and GitHub. (Everyone will in 432.)
 
 **In brief, the steps you need to take for 431 are:**
 
-1. Download and install the latest version of R (version 3.4.1 or later) at http://cran.case.edu/ or https://cran.r-project.org/.
-2. Download and install the preview version of R Studio (version 1.1.345 or later) at https://www.rstudio.com/products/rstudio/download/preview/.
-3. Install some R packages - an R "package" is a collection of functions, data, and documentation that extends the capabilities of R, and is the critical way to get R doing interesting work. To install the packages for our course, open R Studio and run these commands.
-
-```
-pkgs <- c("aplpack", "arm", "babynames", "boot", "car", "devtools", "Epi", 
-          "faraway", "forcats", "foreign", "gapminder", "GGally", "ggjoy", 
-          "gridExtra", "Hmisc", "knitr", "lme4", "markdown", "MASS", 
-          "mice", "mosaic", "multcomp", "NHANES", "pander", "psych", 
-          "pwr", "qcc", "rmarkdown", "rms", "sandwich", "survival", 
-          "tableone", "tidyverse", "vcd", "viridis")
-
-install.packages(pkgs)
-```
+1. Download and install the latest version of R (version 3.5.1 as of this writing) at http://cran.case.edu/ or https://cran.r-project.org/.
+2. Download and install R Studio (version 1.1.456 or later) at https://www.rstudio.com/products/rstudio/download/#download.
+3. Install some R packages - an R "package" is a collection of functions, data, and documentation that extends the capabilities of R, and is the critical way to get R doing interesting work. To install the packages for our course, follow the instructions at https://github.com/THOMASELOVE/431-2018/blob/master/software/packages.md
 
 ## Getting Started with the Software, once you've installed
 
@@ -259,11 +249,11 @@ Because it is by far the better choice for what we're trying to do, which is to 
 
 ## Dr. Love's Notes
 
-The main text is a set of Notes for the course, maintained by Dr. Love at https://thomaselove.github.io/431notes/. 
+The main text is a set of Notes for the course, maintained by Dr. Love at https://thomaselove.github.io/2018-431-notes/. 
 
 Although the Notes share some of the features of a textbook, they are neither comprehensive nor completely original. The main purpose is to give 431 students in Section 1 (and Section 2) a set of common materials on which to draw during the course, providing a series of examples using R to work through issues that are likely to come up during the semester. The material will be updated regularly as the semester progresses.
 
-Slides from each session of the class are posted as .pdf files at https://github.com/THOMASELOVE/431slides
+Slides and other in-class materials from each session of the class are posted as the semester progresses at https://github.com/THOMASELOVE/431-2018/tree/master/slides
 
 ## Books To Purchase
 
