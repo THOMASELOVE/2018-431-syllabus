@@ -71,7 +71,7 @@ The 431 course **calendar** is linked at https://github.com/THOMASELOVE/431-2018
 
 The course is split in three parts. 
 
-**Part A** (Classes 2-9) is mostly about R and Visualizing Data. 
+**Part A** (Classes 2-10) is mostly about R and Visualizing Data. 
 
 - Exploratory Data Analysis
     - Descriptive Numerical and Graphical Summaries
@@ -83,23 +83,25 @@ The course is split in three parts.
     - Data Transformation and `dplyr`
     - Using scripts and projects, Building Code
     
-**Part B** (Classes 10-17) is about Making Comparisons. 
+**Part B** (which starts around Class 11) is about Making Comparisons. 
 
 - Estimation and Inference for Means and Proportions
     - Confidence Intervals
     - Design Implications: Matched vs. Independent Samples
     - Hypothesis Testing Strategies
     - Cross-Tabulations
-    - The Analysis of Variance and Multiple Comparisons
     - Dealing with Missing Data
     - Randomized Trials vs. Non-Randomized Studies
 
-**Part C** (Classes 18-27) is about Building Regression Models. 
+**Part C** (which starts around Class 16) is about Building Regression Models. 
 
 - Estimation and Inference using Ordinary Least Squares
+    - Categorical Variables, Analysis of Variance
+    - Simple and Multivariate Linear Regression Models
     - Building Prediction Models, and Validating Them
+    - Analysis of Covariance
     - Residual and Influence Analyses
-    - Foundations of Model Selection
+    - Foundations of Model / Feature / Variable Selection
 
 ## Key Topics in 431 and 432
 
@@ -144,7 +146,6 @@ Thomas E. Love, Ph.D.
 - [Chief Data Scientist](http://www.betterhealthpartnership.org/data_center/), [Better Health Partnership](http://betterhealthpartnership.org/)
 - Track Lead for Health Care Analytics, MS in Biostatistics, [Department of Population and Quantitative Health Sciences](http://epbiwww.case.edu/), CWRU
 - Fellow, [American Statistical Association](http://www.amstat.org/)
-- 2018 winner of the [John S. Diekhoff Award for Graduate Teaching](https://students.case.edu/traditions/awards/diekhoff/), CWRU
 
 ### Email {-}
 
@@ -172,7 +173,7 @@ Hi. I am Thomas E. Love, Ph.D. and I have at least three different jobs.
 - I am a Professor in the Departments of Medicine and Population & Quantitative Health Sciences at Case Western Reserve University. I teach three courses per year there (PQHS 431, 432 and 500) and also lead the Health Care Analytics track of the MS program in Biostatistics.
 - I direct [Biostatistics and Evaluation](http://chrp.org/biostatistics-evaluation/) at the [Center for Health Care Research & Policy](http://chrp.org/), which is a joint venture of CWRU and MetroHealth Medical Center.
 - For ten years, I was the (founding) Data Director for [Better Health Partnership](http://betterhealthpartnership.org/), an alliance of people who provide, pay for and receive care in Northeast Ohio. I now serve as Chief Data Scientist there.
-- I am a Fellow of the American Statistical Association, and have won numerous awards for my teaching and my research. 
+- I am a Fellow of the American Statistical Association, and have won numerous awards for my teaching and my research, including the 2018 [John S. Diekhoff Award for Graduate Teaching](https://students.case.edu/traditions/awards/diekhoff/) from CWRU.
 - I have been teaching at CWRU since 1994, and have taught every manner of CWRU student over the years, especially students in biostatistics, medicine, and management.
 
 In research, I use statistical methods to look at questions in health policy and in particular the provision of health services. I mostly work with observational data, rather than data that emerge from randomized clinical trials, and I have a special interest in working with data from electronic health records.
@@ -231,37 +232,49 @@ knitr::include_graphics("figures/Maher.png")
 Maher Kazimi is in his second year in the Masters of Public Health program's Population Health Research track. He is an international medical graduate from Jordan, and has practiced medicine in Jordan and Germany as a part of his internship in primary care medicine. He does research work in large data bases describing outcomes for transplant patients (with data from the United Network for Organ Sharing) and emergency department visits (from the Nationwide Emergency Department Sample.) He is also a part of the Health Data Matters team project at the Department of Population and Quantitative Health Sciences.
 
 
-
 # Software
 
-The course makes heavy use of the R statistical programming language. Details on downloading and installing R and the development environment, R Studio, for either PC or Mac, are available at https://github.com/THOMASELOVE/431-2018/blob/master/software/installation.md
+The course makes heavy use of the R statistical programming language, and several related tools, most especially the R Studio development environment. Every bit of this software is free to use, and open-source.
 
-There will be many people in the course for whom R is a new experience. I assume no prior R work in the course. You will know a fair amount of R (and some other things, too) after taking the course, though.
+- There will be many people in the course for whom R is a new experience. I assume no prior R work in the course. You will know a fair amount of R (and some other things, too) after taking the course, though.
+- We'll also be using the R Markdown tool within R Studio. R Markdown will be taught in our class, and can be used to generate reproducible reports that appear as .html files, PDF files or Word documents.
+- For some people, working with R is the best part of the class, and the part that they're most excited about. 
+- For others, it's a real source of anxiety. We understand and encourage patience. There will definitely be some pain, but our experience is that things are much smoother for most people by early October than they appear to be in August. 
 
-We'll also be using the R Markdown tool within R Studio. R Markdown will be taught in our class, and can be used to generate reproducible reports that appear as .html files, PDF files or Word documents.
+## How Do I Install The Software?
 
-## Instructions for Installing R and R Studio
+**Complete instructions, with a step-by-step walkthrough for PC or Mac machines, are available at https://github.com/THOMASELOVE/431-2018/blob/master/software/installation.md**
 
-R and R Studio are two different things, but each is free software. 
+At that page, you will find specific instructions to install everything you need, specifically:
 
-**Complete instructions, with a step-by-step walkthrough, are available at https://github.com/THOMASELOVE/431-2018/blob/master/software/installation.md**
-
-If you need more help, you might look at [this terrific resource for Installing R and RStudio](http://stat545.com/block000_r-rstudio-install.html) from Jenny Bryan and the STAT 545 project. These are the people responsible for the great [Happy Git with R](http://happygitwithr.com/) project, which is worth your time, too, if you intend to use Git and GitHub. (Everyone will in 432.)
+- [R] The latest version of the R statistical software.
+- [R Studio] The latest version of the R Studio development environment.
+- [Packages] Some R "packages" of functions, data and documentation.
+- [431 Data] Some data and functions specific to the 431 class.
 
 **In brief, the steps you need to take for 431 are:**
 
 1. Download and install the latest version of R (version 3.5.1 as of this writing) at http://cran.case.edu/ or https://cran.r-project.org/.
-2. Download and install R Studio (version 1.1.456 or later) at https://www.rstudio.com/products/rstudio/download/#download.
-3. Install some R packages - an R "package" is a collection of functions, data, and documentation that extends the capabilities of R, and is the critical way to get R doing interesting work. To install the packages for our course, follow the instructions at https://github.com/THOMASELOVE/431-2018/blob/master/software/packages.md
+2. Download and install R Studio (version 1.1.456 or later at this writing) at https://www.rstudio.com/products/rstudio/download/#download. If you prefer, you can run the [Preview Version of R Studio](https://www.rstudio.com/products/rstudio/download/preview/) to get the very latest features, but that requires you to update much more frequently.
+3. Install some R packages - an R "package" is a collection of functions, data, and documentation that extends the capabilities of R, and is the critical way to get R doing interesting work. To install the packages for our course, follow the instructions in [the Packages description at our Software page](https://github.com/THOMASELOVE/431-2018/blob/master/software/packages.md)
+4. Download the data and code (functions) we've developed specifically for this course from our [Data page](https://github.com/THOMASELOVE/431-2018-data).
 
-# I AM HERE!!
+## Need More Help?
+
+If you need more help, you might look at [this terrific resource for Installing R and R Studio](http://stat545.com/block000_r-rstudio-install.html) from Jenny Bryan and the STAT 545 project. These are the people responsible for the great [Happy Git with R](http://happygitwithr.com/) project, which is worth your time, too, if you intend to use Git and GitHub.
+
+If you're having installation problems or problems getting started in R, please consider asking a question of us at **431-help at case dot edu**, although a visit to office hours is often more helpful, as it's difficult for us to diagnose your problem without seeing your computer.
 
 ## Getting Started with the Software, once you've installed
 
-1. Dr. Love's document [Getting Started with R](https://github.com/THOMASELOVE/431/blob/master/431-getting-started-with-R.pdf) might be a good first step. This is basically a demonstration of how to use these tools to actually analyze data.
-2. Dr. Love also prepared a downloadable template for your first few R Markdown attempts. Get it by downloading the data and code for the course at https://github.com/THOMASELOVE/431data. Click on the green Clone or download button, and then select Download ZIP to obtain a Zip file of all posted materials.
+1. Dr. Love will demonstrate the use of R, R Studio and R Markdown in class, starting with Class 2.
+2. Dr. Love also prepared a downloadable template for your first few R Markdown attempts. Get it by downloading the data and code for the course at https://github.com/THOMASELOVE/431-2018-data. Click on the green Clone or download button, and then select Download ZIP to obtain a Zip file of all posted materials.
+
+# I AM HERE!!!
+
+3. Dr. Love's document [Getting Started with R](https://github.com/THOMASELOVE/431/blob/master/431-getting-started-with-R.pdf) might be a good first step. This is basically a demonstration of how to use these tools to actually analyze data.
+
 3. We can also recommend Chester Ismay's [Getting Used to R, RStudio and R Markdown](https://bookdown.org/chesterismay/rbasics/) as an introduction to the basics.
-4. Dr. Love will demonstrate the use of R, R Studio and R Markdown in class, starting with Class 2.
 5. [Dr. Love's Course Notes](https://thomaselove.github.io/431notes/) are a source of many examples.
 
 ## Why do we teach R, instead of SPSS or SAS or whatever, in 431-432? 
@@ -523,7 +536,7 @@ In mid-December, **after** Dr. Love has worked out what letter grade to give eac
 The main advantage of this system is that it saves all of us (you, the TAs, and Dr. Love) the hassle of haggling over points that are never going to mean anything anyway. It also provides "equal access" to students who are too timid to approach us in person with their concerns. Finally, if there is an issue with grading a particular problem or assignment that needs to be reconsidered, Dr. Love will have access to all papers and can make a universal decision^[I got this idea from Jessica Utts at http://www.amstat.org/publications/jse/v22n2/rossmanint.pdf.]
 
 
-# Necessary?
+# Old - Necessary?
 
 
 
