@@ -185,7 +185,7 @@ In research, I use statistical methods to look at questions in health policy and
 
 If you want to see a [pretty complete list of my publications](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/48415155/?sort=date&direction=ascending), knock yourself out. 
 
-I hold degrees from Columbia University in the City of New York and from the University of Pennsylvania. My dissertation advisor was Paul Rosenbaum. I am married to a brilliant woman who is an attorney downtown, and we are raising two terrific sons, who are sophomores in college and high school. I live in Shaker Heights. I also sing and act occasionally in community theater.
+I hold degrees from Columbia University in the City of New York and from the University of Pennsylvania. My dissertation advisor was Paul Rosenbaum. I am married to a brilliant woman who is an attorney downtown, and we are raising two terrific sons, who are sophomores in college and high school. I live in Shaker Heights. I also sing and act occasionally in [community theater](https://github.com/THOMASELOVE/theater).
 
 # Teaching Assistants
 
@@ -241,6 +241,17 @@ The course makes heavy use of the R statistical programming language, and severa
 - For some people, working with R is the best part of the class, and the part that they're most excited about. 
 - For others, it's a real source of anxiety. We understand and encourage patience. There will definitely be some pain, but our experience is that things are much smoother for most people by early October than they appear to be in August. 
 
+## System Requirements
+
+You will need a laptop computer in this class, not just an iPad or other tablet, but an actual computer. All of the software we will use in this class is either free and open source, or available to you for free through your affiliation with CWRU, so there is nothing to buy if you have a laptop.
+
+- We've made some effort in terms of course requirements to set the bar low. You do not need a state of the art machine, nor should you need any special hardware to run things for this course.
+    - You will need a laptop, either PC or Mac, but the style should be determined by your personal preferences and how you believe you will use the machine in your research life. 
+    - In this class, you'll be using R Studio and R, which look and work the same on either a PC or a Mac. 
+    - Any reasonably recent PC or Macintosh machine will work well. 
+    - We **do not** recommend the use of a Chrome device for this class.
+    - R and R Studio also run on Linux systems. If you use one, you know more than Dr. Love does about how to accomplish that.
+
 ## How Do I Install The Software?
 
 **Complete instructions, with a step-by-step walkthrough for PC or Mac machines, are available at https://github.com/THOMASELOVE/431-2018/blob/master/software/installation.md**
@@ -269,13 +280,11 @@ If you're having installation problems or problems getting started in R, please 
 
 1. Dr. Love will demonstrate the use of R, R Studio and R Markdown in class, starting with Class 2.
 2. Dr. Love also prepared a downloadable template for your first few R Markdown attempts. Get it by downloading the data and code for the course at https://github.com/THOMASELOVE/431-2018-data. Click on the green Clone or download button, and then select Download ZIP to obtain a Zip file of all posted materials.
+3. Dr. Love's document [Getting Started with R](https://github.com/THOMASELOVE/431-2018/blob/master/software/431-getting-started-with-R.pdf) is a good first step. It demonstrates some of the details on how to use these tools to actually analyze data. Of course, we'll also do this in class.
+4. We can also recommend Chester Ismay's [Getting Used to R, RStudio and R Markdown](https://bookdown.org/chesterismay/rbasics/) as an introduction to the basics.
+5. [Dr. Love's Course Notes](https://thomaselove.github.io/2018-431-book/) are a source of many examples.
 
 # I AM HERE!!!
-
-3. Dr. Love's document [Getting Started with R](https://github.com/THOMASELOVE/431/blob/master/431-getting-started-with-R.pdf) might be a good first step. This is basically a demonstration of how to use these tools to actually analyze data.
-
-3. We can also recommend Chester Ismay's [Getting Used to R, RStudio and R Markdown](https://bookdown.org/chesterismay/rbasics/) as an introduction to the basics.
-5. [Dr. Love's Course Notes](https://thomaselove.github.io/431notes/) are a source of many examples.
 
 ## Why do we teach R, instead of SPSS or SAS or whatever, in 431-432? 
 
@@ -285,7 +294,7 @@ Because it is by far the better choice for what we're trying to do, which is to 
 
 ## Dr. Love's Notes
 
-The main text is a set of Notes for the course, maintained by Dr. Love at https://thomaselove.github.io/2018-431-notes/. 
+The main text is a set of Notes for the course, maintained by Dr. Love at https://thomaselove.github.io/2018-431-book/. 
 
 Although the Notes share some of the features of a textbook, they are neither comprehensive nor completely original. The main purpose is to give 431 students in Section 1 (and Section 2) a set of common materials on which to draw during the course, providing a series of examples using R to work through issues that are likely to come up during the semester. The material will be updated regularly as the semester progresses.
 
