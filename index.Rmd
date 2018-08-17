@@ -1,7 +1,7 @@
 ---
 title: "431 Syllabus - Fall 2018"
 author: "Thomas E. Love, Ph.D."
-date: "Version `r Sys.time()`"
+date: "Version: `r Sys.time()`"
 site: bookdown::bookdown_site
 documentclass: book
 output:
@@ -11,16 +11,25 @@ output:
 
 # Critical Information {-}
 
-This is the Fall 2018 syllabus for PQHS / CRSP / MPHP 431: Statistical Methods in Biological & Medical Sciences, Section 1.
+This is the Fall 2018 syllabus for PQHS / CRSP / MPHP 431: Statistical Methods in Biological & Medical Sciences, Section 1. 
 
 ## Course Home Page {-}
 
 The course home page, with everything you'll need, is at https://github.com/THOMASELOVE/431-2018
 
+## Working with This Document {-}
+
+1. This document is broken down into multiple chapters. Use the table of contents at left to navigate. 
+2. At the top of the document, you'll see icons which you can click to 
+    - search the document, 
+    - change the size, font or color scheme of the page, and 
+    - download a PDF or EPUB (Kindle-readable) version of the entire document.
+3. The document is updated occasionally through the semester. Check the Version information above to verify the last update time.
+
 ## Who, When and Where? {-}
 
-- Section 1 is taught by Professor Thomas Love. 
-- The Fall 2018 teaching assistants are Bob Winkleman, Satyakam Mishra, Claudia Cabrera and Maher Kazimi. 
+- Section 1 is taught by Professor Thomas Love. [More on him here][Dr. Love]. 
+- The Fall 2018 teaching assistants are Bob Winkelman, Satyakam Mishra, Claudia Cabrera and Maher Kazimi. [More on them here][Teaching Assistants].
 - Once the semester begins, reach us at **431-help at case dot edu**. 
 - The course is given on Tuesdays and Thursdays from 1:00 to 2:15 PM, in Room E321-323 in the Robbins building at the School of Medicine.
 - The first class is Tuesday 2018-08-28.
@@ -29,8 +38,8 @@ The course home page, with everything you'll need, is at https://github.com/THOM
 
 To get help for anything related to the course, email **431-help at case dot edu**.
 
-- Dr. Love is available on Tuesdays and Thursdays at CWRU, by appointment. To make an appointment, email him at `thomas.love@case.edu`. He is usually available for 15-30 minutes both before and after class for drop-in conversations. His office is on the ground floor of the Wood building, WG-82 L.
-    + If you have any special concerns about the course, need special accommodations or any other issues for Dr. Love, please email or stop by before or after class.
+- Dr. Love is available on Tuesdays and Thursdays at CWRU, by appointment. To make an appointment, email him at `thomas.love@case.edu`. He is usually available for the 15 minutes before and the 30 minutes after class for drop-in conversations. If he's not in the classroom during those times, his office is on the ground floor of the Wood building, WG-82 L.
+    + If you have any special concerns about the course, need special accommodations or have any other issues for Dr. Love, please email or stop by before or after class.
 - TA office hours will be more extensive, and begin 2018-09-04. Those office hours are held on the ground floor of the Wood building, in the computing lab (WG-56) or the student lounge (WG-67).
 
 ## What Do I Need To Buy? {-}
@@ -40,7 +49,8 @@ We'll read two books that you'll need to purchase (the combined price is about \
 1. Nate Silver's *The Signal and The Noise*. ISBN-13: 978-1594204111 [Amazon Link](https://www.amazon.com/Signal-Noise-Many-Predictions-Fail-but/dp/0143125087), and 
 2. Jeff Leek's *The Elements of Data Analytic Style*, available at https://leanpub.com/datastyle.
 
-Everything else you need is free, and is described in the remainder of this syllabus.
+Everything else that you will need is free, and is described in the remainder of this syllabus.
+
 
 ```{r cwrulogo-fig, echo = FALSE, out.width = '20%'}
 knitr::include_graphics("figures/cwru-stacked-logo-blue-no-tag.jpg")
@@ -158,7 +168,7 @@ Thomas E. Love, Ph.D.
 - Wood WG-82L on the ground floor of the Wood building (Tuesdays and Thursdays)
 - Rammelkamp R-229A at MetroHealth Medical Center (Wednesdays and Fridays)
 
-Dr. Love is generally available before and after class, otherwise by appointment on Tuesdays and Thursdays (send email to schedule). 
+Dr. Love is generally available for the 15 minutes before and the 30 minutes after each class, and otherwise by appointment on Tuesdays and Thursdays (send email to schedule). 
 
 ### Web {-}
 
@@ -185,7 +195,7 @@ In research, I use statistical methods to look at questions in health policy and
 
 If you want to see a [pretty complete list of my publications](https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/48415155/?sort=date&direction=ascending), knock yourself out. 
 
-I hold degrees from Columbia University in the City of New York and from the University of Pennsylvania. My dissertation advisor was Paul Rosenbaum. I am married to a brilliant woman who is an attorney downtown, and we are raising two terrific sons, who are sophomores in college and high school. I live in Shaker Heights. I also sing and act occasionally in [community theater](https://github.com/THOMASELOVE/theater).
+I hold degrees from Columbia University in the City of New York and from the University of Pennsylvania. My dissertation adviser was Paul Rosenbaum. I am married to a brilliant woman who is an attorney downtown, and we are raising two terrific sons, who are sophomores in college and high school. I live in Shaker Heights. I also sing and act occasionally in [community theater](https://github.com/THOMASELOVE/theater).
 
 # Teaching Assistants
 
@@ -265,8 +275,8 @@ At that page, you will find specific instructions to install everything you need
 
 **In brief, the steps you need to take for 431 are:**
 
-1. Download and install the latest version of R (version 3.5.1 as of this writing) at http://cran.case.edu/ or https://cran.r-project.org/.
-2. Download and install R Studio (version 1.1.456 or later at this writing) at https://www.rstudio.com/products/rstudio/download/#download. If you prefer, you can run the [Preview Version of R Studio](https://www.rstudio.com/products/rstudio/download/preview/) to get the very latest features, but that requires you to update much more frequently.
+1. Download and install the latest version of R (version `3.5.1` at this writing) at http://cran.case.edu/ or https://cran.r-project.org/.
+2. Download and install R Studio (version `1.1.456` or later at this writing) at https://www.rstudio.com/products/rstudio/download/#download. If you prefer, you can run the [Preview Version of R Studio](https://www.rstudio.com/products/rstudio/download/preview/) to get the very latest features, but that requires you to update your setup more frequently, and, very occasionally, deal with some additional troubleshooting.
 3. Install some R packages - an R "package" is a collection of functions, data, and documentation that extends the capabilities of R, and is the critical way to get R doing interesting work. To install the packages for our course, follow the instructions in [the Packages description at our Software page](https://github.com/THOMASELOVE/431-2018/blob/master/software/packages.md)
 4. Download the data and code (functions) we've developed specifically for this course from our [Data page](https://github.com/THOMASELOVE/431-2018-data).
 
@@ -281,14 +291,17 @@ If you're having installation problems or problems getting started in R, please 
 1. Dr. Love will demonstrate the use of R, R Studio and R Markdown in class, starting with Class 2.
 2. Dr. Love also prepared a downloadable template for your first few R Markdown attempts. Get it by downloading the data and code for the course at https://github.com/THOMASELOVE/431-2018-data. Click on the green Clone or download button, and then select Download ZIP to obtain a Zip file of all posted materials.
 3. Dr. Love's document [Getting Started with R](https://github.com/THOMASELOVE/431-2018/blob/master/software/431-getting-started-with-R.pdf) is a good first step. It demonstrates some of the details on how to use these tools to actually analyze data. Of course, we'll also do this in class.
-4. We can also recommend Chester Ismay's [Getting Used to R, RStudio and R Markdown](https://bookdown.org/chesterismay/rbasics/) as an introduction to the basics.
+4. See the [Datacamp section][Datacamp] of this syllabus for details on the educational videos and tools available to you.
+5. We can also recommend Chester Ismay and Patrick Kennedy's [Getting Used to R, RStudio and R Markdown](https://rbasics.netlify.com/) as an introduction to the basics.
 5. [Dr. Love's Course Notes](https://thomaselove.github.io/2018-431-book/) are a source of many examples.
-
-# I AM HERE!!!
 
 ## Why do we teach R, instead of SPSS or SAS or whatever, in 431-432? 
 
-Because it is by far the better choice for what we're trying to do, which is to help you become effective data scientists. And effective scientists, period. 
+1. Because it is by far the better choice for what we're trying to do, which is to help you become effective data scientists. And effective scientists, period. 
+2. Because being a data scientist means writing code and actually doing (not just talking about) replicable research, which R facilitates in an immense variety of ways.
+3. Because R is free to you, me and everyone, and its community is a daily delight.
+
+To read comments from other people on the subject, there's always Google, but I suggest reading [Why R?](https://rbasics.netlify.com/2-whyr) from Chester Ismay and Patrick Kennedy.
 
 # Texts
 
@@ -339,12 +352,11 @@ With regard to The Signal and the Noise, you can watch Nate discuss the book's i
     + [Ten Simple Rules for Reproducible Computational Research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285) by Sandve GK et al. 2013
 3. The American Statistical Association's [Statement on p-Values](http://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108): Context, Process and Purpose
     + We'll also look at some of the [Supplemental Material](http://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108).
-4. The preprint from Benjamin D Berger J Johannesson M et al. called "[Redefine statistical significance](https://psyarxiv.com/mky9j/)", which proposes to change the default p-value threshold for statistical significance for claims of new discoveries from 0.05 to 0.005. The manuscript will eventually appear in the journal *Nature Human Behavior*.
-    + Kelly Servick's related article "[It will be much harder to call new findings 'significant' if this team gets its way](http://www.sciencemag.org/news/2017/07/it-will-be-much-harder-call-new-findings-significant-if-team-gets-its-way)" from Science, 2017-07-25, comments on the preprint.
+
 
 ## Supplemental (and Free) Texts That May Be Worth Your Time
 
-1. Ismay C [Getting Used to R, RStudio and R Markdown](https://bookdown.org/chesterismay/rbasics/) - designed to provide new users to R, RStudio, and R Markdown with the introductory steps needed to begin their own reproducible research. 
+1. Chester Ismay and Patrick Kennedy's [Getting Used to R, RStudio and R Markdown](https://rbasics.netlify.com/) is designed to provide new users to R, R Studio, and R Markdown with the introductory steps needed to begin their own reproducible research. 
     + We recommend you use this material to help understand some of the basics of these three software tools. Use other sources to supplement statistical content.
 2. Ismay C Kim AY [ModernDive: An Introduction to Statistical and Data Sciences via R](http://moderndive.com/) - intended to be a gentle introduction to the practice of analyzing data and answering questions using data the way data scientists, statisticians, data journalists, and other researchers would. Some nice material for all three Parts of our course.
     + In Part A, you'll be looking at the Data Exploration via the Tidyverse materials in this text.
@@ -356,26 +368,52 @@ With regard to The Signal and the Noise, you can watch Nate discuss the book's i
     + Part C discusses Chapter 5 and 8, and some of Chapter 10.
 4. Peng RD [Exploratory Data Analysis with R](https://bookdown.org/rdpeng/exdata/) - especially useful material on using R for graphics and general EDA strategies. Covers some basic principles of constructing informative graphs. 
     + In Part A, Chapters 3-6 may be helpful. The Case Study in Chapter 16 is interesting, and has a related video.
-5. Peng RD [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/) - designed to help you get started with the basics of the language, learn how to manipulate datasets, how to write functions, and how to debug and optimize code, which will be more of an issue for us as the semester progresses. 
+5. Peng RD [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/) - designed to help you get started with the basics of the language, learn how to manipulate data sets, how to write functions, and how to debug and optimize code, which will be more of an issue for us as the semester progresses. 
     + Covers some of the same ground as the other Peng book, but at a level geared more for programming.
 6. Harrell FE [Biostatistics for Biomedical Research](http://biostat.mc.vanderbilt.edu/tmp/bbr.pdf) - this is more a set of course notes than a full-fledged book, and uses R but not R Studio, mostly. However, it's full of great, in-depth information on basic statistical methods, and likely to be very useful for Parts B and C of the course.
     + Chapters 1-3 include introductions to relevant R, algebra and biostatistics.
     + For Part A, the value is in Chapter 4 and some of Chapters 14 and 21.
     + Part B - see Chapters 5-7.
     + Part C - consider Chapters 8-12.
-7. R Studio has great Cheat Sheets for Data Import, Data Transformation, Data Visualization, R Markdown and other topics at https://www.rstudio.com/resources/cheatsheets/
+7. R Studio has great Cheat Sheets for Data Import, Data Transformation, Data Visualization, R Markdown and other topics at https://www.rstudio.com/resources/cheat sheets/
+
+# Datacamp
+
+[Datacamp.com](https://www.datacamp.com) is an excellent resource, with lots of great courses geared to students interested in learning about R. 
+
+## Using Datacamp is recommended, but not required
+
+We expect to be able to create a **DataCamp course group**, which substantially reduces the financial requirements of this service, and which you'll be invited to join while you're registered for 431 (and its follow-up, 432.)
+
+- You should receive an email about this near the beginning of the term, once you are officially enrolled, and once all of the details have been worked out.
+- Please feel encouraged to join us and take advantage of the service, but the use of Datacamp is not mandatory.
+- Even before you get that email, you can take the (free) [R for the Intimidated](https://www.datacamp.com/community/open-courses/r-for-the-intimidated#gs.0vz4q34) course, which is very nice, especially if you're feeling that way.
+
+## Datacamp Courses We Recommend
+
+Remember that you can start with the (free) [R for the Intimidated](https://www.datacamp.com/community/open-courses/r-for-the-intimidated#gs.0vz4q34) course, if it seems useful to you, at any time.
+
+Once you have enrolled in our Datacamp Class, you'll have access to a wider array of their courses, including the following, all of which we recommend highly.
+
+  - **Introduction to the Tidyverse** by David Robinson
+  - **Data Manipulation in R with dplyr** by Garrett Grolemund
+  - **Data Visualization with ggplot2** by Rick Scavetta
+  - **Introduction to Data** by Mine Cetinkaya-Rundel
+  - **Exploratory Data Analysis** by Andrew Bray
+  - **Exploratory Data Analysis in R: A Case Study** by David Robinson
+  - **Correlation and Regression** by Ben Baumer
+  - **Reporting with R Markdown** by Garrett Grolemund
 
 # Videos, Podcasts and Other Resources
 
 ## Videos to Learn R
 
-Lots of people like to watch a video to learn things. Here are some of the many R examples we've found useful.
+Lots of people like to watch a video to learn things. Here are a few non-Datacamp R examples we've found useful.
 
 1. [Getting Started with R Markdown](https://www.rstudio.com/resources/webinars/getting-started-with-r-markdown/), from R Studio.
-2. The Datacamp Course called [R for the Intimidated](https://www.datacamp.com/community/open-courses/r-for-the-intimidated#gs.0vz4q34) is useful, too, especially for those feeling that way.
-3. [Getting Your Data into R](https://www.rstudio.com/resources/webinars/getting-your-data-into-r/), from R Studio.
-4. [Data Wrangling with R and RStudio](https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/), also from R Studio.
-5. Also good is the six part series on [R Studio Essentials](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-part-1/), from R Studio.
+2. [Getting Your Data into R](https://www.rstudio.com/resources/webinars/getting-your-data-into-r/), from R Studio.
+3. [Data Wrangling with R and RStudio](https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/), also from R Studio.
+4. Also good is the six part series on [R Studio Essentials](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-part-1/), from R Studio.
     + Parts 1 and 2 of each section (Programming, and Managing Change) may be of more interest.
 
 ## Podcasts
@@ -397,11 +435,13 @@ There are several curated lists of data science blogs online, for example, see h
 1. The `swirl` package in R can be a great help for people learning R programming and data science. Find out more about it at http://swirlstats.com/students.html
 2. UCLA's Institute for Digital Research and Education has some great [Data Analysis Examples](https://stats.idre.ucla.edu/other/dae/) using R (and other software.)
 
-# Expectations, Assessment and Grades
+# Deliverables, Expectations and Assessment
 
-All students are expected to attend all sessions, participate vigorously in the class discussions and in team work, complete all individual work in a timely fashion (**late work will be accepted only if approved by Professor Love, and he will only grant that approval in catastrophic circumstances**), demonstrate improvement of skills over the term, and perform well on the Quizzes and in the final portfolio presentation. Such a performance is the minimum standard required to receive a grade of B
+All students are expected to attend all sessions, participate vigorously in the class discussions and in team work, complete all individual work in a timely fashion, demonstrate improvement of skills over the term, and perform well on the Quizzes and in the final portfolio presentation. Such a performance is the minimum standard required to receive a grade of B.
 
 To receive an A, students are expected to complete all the requirements described above, demonstrate excellent work in both the final portfolio presentation, and outstanding work in at least one of the following: [a] in class participation, [b] assignments, [c] quizzes.
+
+## Grading Breakdown
 
 Grading standards apply in the same way for all students, regardless of whether they are enrolled in PQHS 431, CRSP 431 or MPHP 431. The courses are identical.
 
@@ -410,11 +450,11 @@ The course grade is based on four key areas of demonstrated accomplishment. The 
 Weight | Task
 ------: | ----------------------------------------------------
 15% | In-Class and Outside-of-Class Participation 
-25% | Completion and Quality of Assignments 1-6
-30% | Peformance on Quizzes 1-3 
-30% | Final Portfolio Presentation and Related Materials
+25% | Completion and Quality of Homework Assignments
+30% | Performance on Quizzes 1-3 
+30% | Final Project Presentation and Related Materials
 
-Any questions regarding how you are doing in the course can be directed to Dr. Love. 
+Any questions regarding how you are doing in the course should be directed to Dr. Love alone. In particular, the TAs do not have full access to the final grades.
 
 ## Participation
 
@@ -426,67 +466,79 @@ Students often ask how they can improve this part of their grade.  I cannot emph
     + See a cool visualization online? A nice use of statistical methods or design in a paper? Share them with us, at `431-help at case dot edu`.
 3. Mindlessness and poor planning are unimpressive. Be smart and **plan ahead**. Do the work on your end first. In the last 18 hours before something is due, we generally do not answer questions, deliberately. 
 
-We assume you will attend all classes. If you need to miss one, it's your job to ensure that you get ahold of all relevant materials, and meet all deadlines, but there is no need to let Dr. Love know about in advance **unless** you are going to miss more than one class in a row.
+## Attendance
 
-# Quizzes
+We assume you will attend all classes. 
+
+- If you need to miss one class, it's your job to ensure that you get hold of all relevant materials, and meet all deadlines, but there is no need to let Dr. Love know about in advance.
+- If you need to miss multiple classes in a row, you should let Dr. Love know this in advance. Send him an email directly, being sure to specify the dates that you will miss.
+
+## Deadlines in this course are very serious.
+
+This is graduate school. Missing deadlines is no longer an available option to you.
+
+- We treat everything that arrives within one hour of the deadline as "on time" and everything that arrives 61 minutes or more after the deadline as "late".
+- Turning in **incomplete, but on time work** is bad, but it is far better in this class than turning in complete work late.
+- Dr. Love will be the sole judge of whether or not to accept late work.
+- Late work without a catastrophic circumstance is completely unacceptable. 
+  - Catastrophic circumstances specifically **do not** include "my computer broke down when I tried to send my work five minutes before the deadline". It is your responsibility to anticipate and allow time for computer problems.
+
+## There are three Quizzes.
 
 There are three quizzes scheduled. Each Quiz will be taken online, exclusively.
 
 - **If you need to make alternate arrangements for a Quiz, please contact Professor Love via email as soon as possible**, and in any case, at least a week before a Quiz is released.
 - A test survey will be completed in September to ensure that you can use the quiz software to submit your results.
-- You will have a minimum of 91 hours to work on each quiz. Most students complete each quiz in 3-5 hours.
+- You will have a minimum of 3 days (72 hours) to work on each quiz. Most students complete each quiz in 3-5 hours.
 - All quizzes require an Internet connection, and a CWRU login.
 - Late submissions of Quizzes will not be accepted. 
 - Quizzes typically involve somewhere between 30 and 50 short-answer questions.
 
-## A few general comments on the quizzes
+### A few general comments on the quizzes
 
 1. The questions are not arranged in any particular order, and you should answer all questions.
 2. All questions involve relatively short responses, sometimes after working through a detailed analysis.
 3. You will have the opportunity to edit your responses after completing the Quiz, but this must be completed by the deadline.
 4. You are welcome (even encouraged) to consult the materials provided on the course website, but you are **not** allowed to discuss the questions on the Quizzes with anyone other than Professor Love or the teaching assistants.
 5. We do not guarantee to answer questions we receive via email less than 3 hours prior to the Quiz submission deadline.
-6. After each Quiz is complete, an answer sketch will be made available. Grades for Quizzes 1 and 2 should be available within 36 hours of the due date, and for Quiz 3, they will be available by Friday 2017-12-15.
+6. After each Quiz is complete, an answer sketch will be made available. 
+7. Grades for the Quizzes are usually available within 36 hours of the deadline. If you feel Dr. Love has made an error in grading your Quiz, please let him know directly, by email.
 
-# Assignments
+## There are Homework assignments.
 
-There are six main homework assignments scheduled. Most require straightforward demonstrations of mastery for core principles and fundamental skills. Some require deeper dives into more technically sophisticated material. Some also require reflection, particularly based on materials we'll be reading throughout the semester, especially from Nate Silver's book. 
+There are several homework assignments scheduled. Most require straightforward demonstrations of mastery for core principles and fundamental skills. Some require deeper dives into more technically sophisticated material. Some also require reflection, particularly based on materials we'll be reading throughout the semester, especially from Nate Silver's book.
 
-1. [Assignment 1](https://github.com/THOMASELOVE/431homework/blob/master/431-2017_assignment-1.md) is due Friday 2017-09-15 at noon.
-2. [Assignment 2](https://github.com/THOMASELOVE/431homework/blob/master/431-2017_assignment-2.md) is due Friday 2017-09-22 at noon.
-3. [Assignment 3](https://github.com/THOMASELOVE/431homework/blob/master/431-2017_assignment-3.md) is due Friday 2017-09-29 at noon.
-4. [Assignment 4](https://github.com/THOMASELOVE/431homework/blob/master/431-2017_assignment-4.md) is due Friday 2017-10-27 at noon.
-5. [Assignment 5](https://github.com/THOMASELOVE/431homework/blob/master/431-2017_assignment-5.md) is due Thursday 2017-11-09 at noon.
-6. [Assignment 6](https://github.com/THOMASELOVE/431homework/blob/master/431-2017_assignment-6.md) is due Monday 2017-12-04 at noon.
+### Where will I find the Assignments?
 
-## Where will I find the Assignments?
+The actual homework assignments are found at https://github.com/THOMASELOVE/431-2018/tree/master/homework
 
-The actual homework assignments are found at https://github.com/THOMASELOVE/431homework
-
-## Where do I turn in the Assignments?
+### Where do I turn in the Assignments?
 
 You will turn in your Assignments using the Canvas system at https://canvas.case.edu. 
 
 The course's primary listing is PQHS 431, but students in CRSP 431 and MPHP 431 should find the same information. The link to post your responses for Assignment 1 will be there by the first day of class. Subsequent assignments will appear after the deadline for the preceding assignment has passed.
 
-## General Comments on Assignments
+### General Comments on Assignments
 
-1. Each assignment will require you to analyze some data, and prepare a report using R Markdown. You will submit both your Markdown file, and an HTML, PDF or Word document built from that Markdown file. 
-2. Most assignments will require you to write an essay. Essays must be composed as part of your Markdown file, and thus included in your HTML/PDF/Word document. Do not edit the result of your R Markdown conversion into Word.
+1. Each assignment will require you to analyze some data, and prepare a report using R Markdown. You will submit both your Markdown file, and an HTML document built using R Studio from that Markdown file. 
+2. Most assignments will require you to write an essay. Essays must be composed as part of your Markdown file, and thus included in your HTML document. Do not edit the result of your R Markdown conversion into Word.
 3. When writing in English, use complete sentences, rather than bullet points.
 4. Clearly mark each Question in each Assignment. There is no need to repeat the question before answering it, although you are welcome to do so.
 5. Read and heed the advice of Jeff Leek in *The Elements of Data Analytic Style*. Chapters 5, 9, 10 and 13 of that book are especially relevant to our early assignments.
-6. You are welcome to discuss each Assignment with anyone, including Dr. Love, the teaching assistants, or your colleagues, but your answer must be prepared by you alone. We especially encourage you to take advantage of TA office hours and email 431-help at case dot edu. 
-7, In general, we do not provide answers to questions that we receive in the last 18 hours before an assignment is due. So don't leave anything until the last day. Allow time for computer problems.
-8. Late work is inappropriate for graduate school. Failure to turn in an assignment within one hour of the deadline (all deadlines are noon) will result in a very poor grade on the assignment if it is (eventually) turned in, and a zero (from which it is difficult to recover) if it is not turned in. Submission of timely, but partial work is far better than no submission at all.
+6. You are welcome to discuss each Assignment with anyone, including Dr. Love, the teaching assistants, or your colleagues, but your answer must be prepared by you alone. We especially encourage you to take advantage of TA office hours and email **431-help at case dot edu**.
+7. In general, we do not guarantee to provide answers to questions that we receive in the last 18 hours before an assignment is due. So don't leave anything until the last day. Allow time for computer problems.
+8. Late work is inappropriate for graduate school. Failure to turn in an assignment within one hour of the deadline will result in a very poor grade on the assignment if it is (eventually) turned in, and a zero (from which it is difficult to recover) if it is not turned in. **Submission of timely, but partial work is far better than no submission at all.**
 9. If an assignment is scheduled so that you will not be able to complete it in a timely fashion, it is your responsibility to email Dr. Love about the situation so he can evaluate it. Such requests should be sent as soon as possible, and at least 48 hours prior to the deadline for the assignment, except, of course, in the case of truly horrific circumstances.
-10. Grades on Assignments are usually available one week after the submission deadline.
+10. Grades on Assignments are usually available one week after the submission deadline. 
+11. If you have a complaint about your grade on a Homework Assignment, please first review [the Grade Appeal Policy][Grade Appeal Policy - Wait until December!] at the end of our syllabus.
 
-# Final Portfolio Project
+## There is a final project, rather than a final exam.
 
-All materials and information related to the project are maintained at https://github.com/THOMASELOVE/431project and regular updates will appear there throughout the semester.
+All materials and information related to the project are maintained at https://github.com/THOMASELOVE/431-2018-project and regular updates will appear there throughout the semester.
 
-# A Few Writing/Presenting Tips
+The project includes work throughout the semester, culminating in a final presentation to Dr. Love of your work in mid-December, specifically on 2018-12-10, 2018-12-11 or 2018-12-13. All students will need to give a presentation in person on one of these three days. Presentation scheduling will occur in October.
+
+# A Few General Writing/Presenting Tips
 
 1. Statistics is a "getting the details right" business - we care deeply about details, and this applies to writing code or complete English sentences.
 2. Nothing impresses us as much as a clear and concise argument, presented using well-written English sentences, effective and well-labeled figures and tables.
@@ -510,102 +562,36 @@ All materials and information related to the project are maintained at https://g
 16. To the extent possible, don't use `computer-ese` to label variables, plots or tables.  R and Markdown allow you to change the labels on graphs and tables to meaningful things -- do so.  Use meaningful abbreviations, as necessary, explaining what they mean on the first usage.
 17. When in doubt, err on the side of clarity. Clear thinking, clear writing.
 
-
-
 # General Course Policies
 
 1. Any concerns or questions regarding these general policies, the teaching assistants or the course itself should be directed to Dr. Love, if at all possible.
 2. All student work is subject to the University's policies and procedures. 
-3. **Registration is required**. I do not permit anyone to audit the course, without exception.
+3. **Registration is required**. I do not permit anyone to audit the course who has not previously taken it, without exception. If you've taken the course before and want to sit in again, consider volunteering as a teaching assistant.
 4. **Grading**. You are not in competition with each other for grades. I have no set percentage of students who will receive any particular grade.
 5. **Attendance** is expected, and your absence will be noted. If you need to miss more than one class in a row, inform Dr. Love via email beforehand, or as soon as possible thereafter. I will assume you have a good reason - details are **not** necessary. You are responsible for all missed work, regardless of the reason for your absence. All work is turned in electronically, except for the final project presentation.
 6. **Late work is unacceptable** under anything but the most harrowing of circumstances. Dr. Love (via email) is the person to discuss this with, at least 48 hours prior to the deadline, if you feel your circumstances are sufficiently dire to warrant an exception. It is far better to turn in timely, but only partially complete work than nothing at all.
 7. **Feedback on assignments - deadline.** On every assignment, Quiz, project-related task, whatever, we will be delighted to respond to email questions **up to 18 hours before** the assignment is due. After that time, you are on your own. The reason for this is that Dr. Love and the teaching assistants will regularly post responses to frequently asked questions about assignments, and we need sufficient time to accomplish this task.
 8. **On Getting Help Quickly and Effectively**: In general, we don't have a way to diagnose your problem with R, R Studio or Markdown if you don't show us what you're typing that causes an error, or a lack of results. If you wrote a Markdown file, send it, along with a specific question (or series of them) about specific error messages or strange results you are getting. We need to replicate the problem in order to know how to fix your problem, and it also helps if we know what error message you're seeing, or what strange result you are getting.
-9. **Using a Laptop** Using a laptop to follow along, take notes, or try things out during class, can be very helpful. Feel free to do so.
+9. **Using a Laptop** Using a laptop to follow along, take notes, or try things out during class, can be very helpful. Feel encouraged to do so.
 10. **Computer** You will need access to a computer (PC or Mac - a ChromeBook won't do) outside of class to do every assignment. You need to be able to install software on this computer, and update it frequently.
 11. **Distractions**. Silence your phone during class. The temptation to look at your phone or Facebook or email during class is nearly irresistible. Resist anyway, if only to avoid distracting your instructor and your fellow students. **Dr. Love has absolutely no shame about embarassing people on this issue. If it's critical, just step out of the room**.
 12. **Research Usage**. Any and all results of in-class and out-of-class assignments and activities are data sources for research and may be used in published research. All such use will always be anonymous.
-13. **Audio-Recording.** Anything you say during a class session *may* be audio-recorded.
+13. **Audio-Recording.** It is our intention to provide audio recordings of each class after they are complete. Anything you say during a class session *may* be audio-recorded.
 14. **Typos.** Dr. Love makes occasional typographic and grammatical errors, which irritate him enormously. Please email him if you find any in this syllabus or any other course materials. If you are the first to let us know, and we make the change, you will receive a small amount of bonus credit in your class participation grade.
 
-## Grade Appeal Policy - Wait until December!
+# Grade Appeal Policy - Wait until December!
 
 For each assignment and Quiz, after it has been submitted, we will publish a detailed answer sketch and a grading rubric. You will also learn your scores on each individual item.
 
-Clarification of concerns related to potential typographical or other errors in these answer sketches is welcome at any time, but haggling over points on assignments and quizzes can be a real time sink in a large class. 
+Clarification of concerns related to potential typographical or other errors in these answer sketches is welcome at any time, but haggling over points on assignments can be a real time sink in a large class. 
 
-- To that end, students are **requested not to dispute** any grading until December. 
+- To that end, students are **requested not to dispute** any grading on homework assignments until December. 
 - Students are permitted to ask questions about grading during the term, and the teaching assistants and I are happy to discuss why points were taken off, but we make it clear that no grades will be changed until the end of the term. The one exception is if there is a mistake in adding up points, or some similar clerical error. Those are corrected immediately, of course.
-- In early December, we will provide a form listing all completed Assignments and Quizzes. Any student who wishes to dispute points can specify the number of points in question next to each relevant assignment or Quiz, and the details of the issues that concern them. 
-- If you wish to dispute a grade, just fill out the form in December. All forms must be submitted by the end of the final project presentation on December 14.
+- In early December, we will provide a form listing all completed Homework Assignments. Any student who wishes to dispute points can specify the number of points in question next to each relevant assignment or Quiz, and the details of the issues that concern them. 
+- If you wish to dispute a grade, just fill out the form in December. All forms must be submitted by the end of the final project presentation on December 13.
 
-In mid-December, **after** Dr. Love has worked out what letter grade to give each student, he will go through the requests and determine for each whether the student's letter grade would change if all of the points in dispute were granted. If the answer is no, then we don't even look at the disputed grade(s). If the answer is yes, then we look very carefully to see if enough extra points are merited to change their grade. (It will not help your case if you submit any frivolous requests.)
+In mid-December, **after** Dr. Love has worked out what letter grade to give each student, he will go through the requests and determine for each whether the student's letter grade would change if all of the points in dispute were granted. If the answer is no, then we don't even look at the disputed grade(s). If the answer is yes, then we look very carefully to see if enough extra points are merited to change their grade. (It will not help your case to submit frivolous requests.)
 
 The main advantage of this system is that it saves all of us (you, the TAs, and Dr. Love) the hassle of haggling over points that are never going to mean anything anyway. It also provides "equal access" to students who are too timid to approach us in person with their concerns. Finally, if there is an issue with grading a particular problem or assignment that needs to be reconsidered, Dr. Love will have access to all papers and can make a universal decision^[I got this idea from Jessica Utts at http://www.amstat.org/publications/jse/v22n2/rossmanint.pdf.]
 
 
-# Old - Necessary?
-
-
-
-But within those Parts, we jump around. A lot. 
-
-An outline of the course schedule follows. The more detailed calendar is at 
-
-This is only a **tentative schedule**, but we'll wind up in the same place. 
-
-Class | Date | Topics | Readings
------: | ----------: | ------------------------------------- | ---------
-1 | 2018-08-28 | Introduction, Getting Started | Syllabus
-2 | 2018-08-30 | **Part A. Visualizing Data**, R and R Studio | 
-3 | 2018-09-04 | Exploring Data and the Tidyverse | 
-4 | 2018-09-06 | Scripts and Projects in R/R Studio | Leek 5, 9, 10, 13
-5 | 2018-09-11 | Data Transformation and dplyr | Silver, Intro and Chapter 1
-6 | 2018-09-13 | Exploratory Data Analysis | 
-- | - | Assignment 1 due at noon.
-7 | 2018-09-18 | Descriptive Statistics, The Normal Distribution |
-8 | 2018-09-20 | Using `ggplot2` more effectively |
-- | - | Assignment 2 due at noon.
-9 | 2018-09-25 | Linear regression and correlation | Silver, 2-3
-10 | 2018-09-27 | Studying associations |
-- | - | Assignment 3 due at noon.
-11 | 2018-10-02 | **Part B: Making Comparisons** | Leek 1-4 and 12
-12 | 2018-10-04 | Confidence intervals for Means | Quiz 1 provided to you.
-- | - | Quiz 1 due at noon. |
-13 | 2018-10-09 | Matched Pairs, Independent Samples | Leek 6, Silver 4-5
-14 | 2018-10-11 | Hypothesis Testing Strategies |
--  | - | Project Task A due at noon.
-15 | 2018-10-16 | The Analysis of Variance and Related Tools | Silver 7-8
-16 | 2018-10-18 | Multiple Comparisons | 
--  | - | Project Task B due at noon.
--- | *2018-10-23* | *CWRU Fall Break (no class)* | --
-17 | 2018-10-25 | Comparing Two Means - Set Up Survey | 
--  | - | Assignment 4 due at noon.
-18 | 2018-10-30 | ANOVA - Comparing Multiple Means |
-19 | 2018-11-01 | **Part C: Building Effective Models** | Silver through 11
-20 | 2018-11-06 | Building Inferences for Rates |
--  | - | Project Task C due at noon.
--  | - | Assignment 5 due at noon.
-21 | 2018-11-08 | Conclude Part B of course | Quiz 2 provided to you.
--  | - | Quiz 2 due at 8 AM. |
-22 | 2018-11-13 | Begin Part C of course | Leek 7-8
-23 | 2018-11-15 | Estimation and Inference |
--  | - | Project Task D due at noon.
--- | *2018-11-20* | *Class is cancelled.* | --
--- | *2018-11-22* | *CWRU Thanksgiving Break (no class)* | --
-24 | 2018-11-27 | Residual and Influence Analysis | Silver 12
-25 | 2018-11-29 | Prediction and Validation |
--  | - | Assignment 6 due at noon.
-26 | 2018-12-04 | More Modeling Content | Silver finish book
-27 | 2018-12-06 | Looking Back, and Forward | Quiz 3 provided to you.
--  | - | Quiz 3 due at noon. | --
--  | - | Project Task E due at noon.
-
-Final Portfolio Presentations will be held on
-
-- Monday 2018-12-10
-- Tuesday 2018-12-11, and
-- Thursday 2018-12-13
-
-Project presentations will be scheduled as part of Project Task A, and you will know the date and time of your portfolio presentation by 2017-10-18.
