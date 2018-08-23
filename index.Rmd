@@ -540,7 +540,7 @@ The project includes work throughout the semester, culminating in a final presen
 
 # A Few General Writing/Presenting Tips
 
-1. Statistics is a "getting the details right" business - we care deeply about details, and this applies to writing code or complete English sentences.
+1. Statistics is a "getting the details right" business - we care deeply about details, and this applies to writing code or complete English sentences. R Studio has a spell-checker. To use it, click F7.
 2. Nothing impresses us as much as a clear and concise argument, presented using well-written English sentences, effective and well-labeled figures and tables.
 3. Don't parrot back material that Dr. Love wrote or said. State ideas in your own words. Stating them in other words is, technically, plagiarism.
 4. Edit your more adventurous output;  don't present everything you know how to do in R, and don't forget that someone is trying to read both your code and your results.
