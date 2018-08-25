@@ -585,9 +585,9 @@ For each assignment and Quiz, after it has been submitted, we will publish a det
 
 Clarification of concerns related to potential typographical or other errors in these answer sketches is welcome at any time, but haggling over points on assignments can be a real time sink in a large class. 
 
-- To that end, students are **requested not to dispute** any grading on homework assignments until December. 
+- To that end, students are **requested not to dispute** any grading on homework assignments during the semester, but instead to request a review on a form that will be reviewed by Dr. Love in December. 
 - Students are permitted to ask questions about grading during the term, and the teaching assistants and I are happy to discuss why points were taken off, but we make it clear that no grades will be changed until the end of the term. The one exception is if there is a mistake in adding up points, or some similar clerical error. Those are corrected immediately, of course.
-- In early December, we will provide a form listing all completed Homework Assignments. Any student who wishes to dispute points can specify the number of points in question next to each relevant assignment or Quiz, and the details of the issues that concern them. 
+- On the course's [Homework page](https://github.com/THOMASELOVE/431-2018/blob/master/homework/README.md), we include a section about Grading Errors. There, you'll find a link to a Google form (you must log into Google via CWRU to see it) listing all Homework Assignments. Any student who wishes to dispute points can specify the number of points in question next to each relevant assignment or Quiz, and the details of the issues that concern them. 
 - If you wish to dispute a grade, just fill out the form in December. All forms must be submitted by the end of the final project presentation on December 13.
 
 In mid-December, **after** Dr. Love has worked out what letter grade to give each student, he will go through the requests and determine for each whether the student's letter grade would change if all of the points in dispute were granted. If the answer is no, then we don't even look at the disputed grade(s). If the answer is yes, then we look very carefully to see if enough extra points are merited to change their grade. (It will not help your case to submit frivolous requests.)
