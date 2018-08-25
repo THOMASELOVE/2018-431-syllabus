@@ -381,13 +381,17 @@ With regard to The Signal and the Noise, you can watch Nate discuss the book's i
 
 [Datacamp.com](https://www.datacamp.com) is an excellent resource, with lots of great courses geared to students interested in learning about R. 
 
+## Official Blurb from DataCamp
+
+> This class is supported by DataCamp, the most intuitive learning platform for data science. Learn R, Python and SQL the way you learn best through a combination of short expert videos and hands-on-the-keyboard exercises. Take over 100+ courses by expert instructors on topics such as importing data, data visualization or machine learning and learn faster through immediate and personalised feedback on every exercise.
+
 ## Using Datacamp is recommended, but not required
 
-We expect to be able to create a **DataCamp course group**, which substantially reduces the financial requirements of this service, and which you'll be invited to join while you're registered for 431 (and its follow-up, 432.)
+We have created a **DataCamp for the Classroom course group**, which provides you with free access to all of their courses throughout the length of 431, and which you'll be invited to join while you're registered for 431 (and its follow-up, 432.)
 
-- You should receive an email about this near the beginning of the term, once you are officially enrolled, and once all of the details have been worked out.
-- Please feel encouraged to join us and take advantage of the service, but the use of Datacamp is not mandatory.
-- Even before you get that email, you can take the (free) [R for the Intimidated](https://www.datacamp.com/community/open-courses/r-for-the-intimidated#gs.0vz4q34) course, which is very nice, especially if you're feeling that way.
+- You should receive an email about this near the beginning of the term, once you are officially enrolled and the class has begun.
+- Please feel strongly encouraged to join us and take advantage of the service, but the use of Datacamp is not mandatory.
+- Even before you get that email, you can take the (free) [R for the Intimidated](https://www.datacamp.com/community/open-courses/r-for-the-intimidated#gs.0vz4q34) course, which is very nice, especially if you're feeling a bit intimidated.
 
 ## Datacamp Courses We Recommend
 
@@ -579,19 +583,24 @@ The project includes work throughout the semester, culminating in a final presen
 13. **Audio-Recording.** It is our intention to provide audio recordings of each class after they are complete. Anything you say during a class session *may* be audio-recorded.
 14. **Typos.** Dr. Love makes occasional typographic and grammatical errors, which irritate him enormously. Please email him if you find any in this syllabus or any other course materials. If you are the first to let us know, and we make the change, you will receive a small amount of bonus credit in your class participation grade.
 
-# Grade Appeal Policy - Wait until December!
+# Grade Appeal Policy - Request a Review in December!
 
-For each assignment and Quiz, after it has been submitted, we will publish a detailed answer sketch and a grading rubric. You will also learn your scores on each individual item.
+For each homework, we publish a detailed answer sketch and grading rubric. You will also learn your scores on each individual item on each homework.
 
-Clarification of concerns related to potential typographical or other errors in these answer sketches is welcome at any time, but haggling over points on assignments can be a real time sink in a large class. 
+Clarification of concerns related to potential typographical or other errors in these answer sketches is welcome at any time, but haggling over points on assignments can be a real time sink in a large class. To that end, students are **requested not to dispute** any grading on homework assignments during the semester, but instead to request a review on a Google Form that will be reviewed by Dr. Love in December. 
 
-- To that end, students are **requested not to dispute** any grading on homework assignments during the semester, but instead to request a review on a form that will be reviewed by Dr. Love in December. 
-- Students are permitted to ask questions about grading during the term, and the teaching assistants and I are happy to discuss why points were taken off, but we make it clear that no grades will be changed until the end of the term. The one exception is if there is a mistake in adding up points, or some similar clerical error. Those are corrected immediately, of course.
-- On the course's [Homework page](https://github.com/THOMASELOVE/431-2018/blob/master/homework/README.md), we include a section about Grading Errors. There, you'll find a link to a Google form (you must log into Google via CWRU to see it) listing all Homework Assignments. Any student who wishes to dispute points can specify the number of points in question next to each relevant assignment or Quiz, and the details of the issues that concern them. 
-- If you wish to dispute a grade, just fill out the form in December. All forms must be submitted by the end of the final project presentation on December 13.
+- On the course's [Homework page](https://github.com/THOMASELOVE/431-2018/blob/master/homework/README.md), we include a section about Grading Errors and Regrade Requests. There, you'll find a link to a Google form (you must log into Google via CWRU to see it) listing all Homework Assignments. Any student who wishes to dispute points can specify the number of points in question next to each relevant assignment or Quiz, and the details of the issues that concern them. 
+    - If you wish to dispute a grade, just fill out the form, and Dr. Love will review it in December.
+    - You can fill out the form at any time, and you can edit the form after submitting it once so that you can add additional requests up until the end of the semester.
+    - All forms must be submitted by noon on 2018-12-13.
+    - Disputing a grade on a homework with a teaching assistant is pointless. 
+    - Dr. Love is responsible for all final decisions, and if you have a concern, you should submit your request through the form.
+    
+Students are welcome to ask questions of Dr. Love about grading during the term. The TAs and Dr. Love are happy to discuss in a general sense any questions about an assignment, but no grades will be changed until the end of the term. 
+    - The one exception is if there is a mistake in adding up points, or some similar clerical error. If you find such an issue, please bring it to Dr. Love's attention via email, and such problems will be corrected immediately, of course.
 
-In mid-December, **after** Dr. Love has worked out what letter grade to give each student, he will go through the requests and determine for each whether the student's letter grade would change if all of the points in dispute were granted. If the answer is no, then we don't even look at the disputed grade(s). If the answer is yes, then we look very carefully to see if enough extra points are merited to change their grade. (It will not help your case to submit frivolous requests.)
+In mid-December, **after** Dr. Love has worked out what letter grade to give each student, he will go through the requests and determine for each whether the student's letter grade would change if all of the points in dispute were granted. If the answer is no, then he won't even look at the disputed grade(s). If the answer is yes, then he will look very carefully to see if enough extra points are merited to change a grade. (It will not help your case to submit frivolous requests.)
 
-The main advantage of this system is that it saves all of us (you, the TAs, and Dr. Love) the hassle of haggling over points that are never going to mean anything anyway. It also provides "equal access" to students who are too timid to approach us in person with their concerns. Finally, if there is an issue with grading a particular problem or assignment that needs to be reconsidered, Dr. Love will have access to all papers and can make a universal decision^[I got this idea from Jessica Utts at http://www.amstat.org/publications/jse/v22n2/rossmanint.pdf.]
+The main advantage of this system is that it saves all of us the hassle of haggling over points that are never going to mean anything anyway. It also provides "equal access" to students who are too timid to approach us in person with their concerns. Finally, if there is an issue with grading a particular problem or assignment that needs to be reconsidered, Dr. Love will have access to all papers and can make a universal decision^[I got this idea from Jessica Utts at http://www.amstat.org/publications/jse/v22n2/rossmanint.pdf.]
 
 
