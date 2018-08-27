@@ -19,7 +19,7 @@ The course home page, with everything you'll need, is at https://github.com/THOM
 
 ## Working with This Document {-}
 
-1. This document is broken down into multiple chapters. Use the table of contents at left to navigate. 
+1. This document is broken down into multiple sections. Use the table of contents at left to navigate. 
 2. At the top of the document, you'll see icons which you can click to 
     - search the document, 
     - change the size, font or color scheme of the page, and 
