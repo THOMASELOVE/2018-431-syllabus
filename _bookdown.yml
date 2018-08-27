@@ -1,6 +1,6 @@
-book_filename: "bookdown-demo"
+book_filename: "431-syllabus-2018"
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Section "
 delete_merged_file: true
 output_dir: "docs"
