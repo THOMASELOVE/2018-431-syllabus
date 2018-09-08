@@ -40,7 +40,15 @@ To get help for anything related to the course, email **431-help at case dot edu
 
 - Dr. Love is available on Tuesdays and Thursdays at CWRU, by appointment. To make an appointment, email him at `thomas.love@case.edu`. He is usually available for the 15 minutes before and the 30 minutes after class for drop-in conversations. If he's not in the classroom during those times, his office is on the ground floor of the Wood building, WG-82 L.
     + If you have any special concerns about the course, need special accommodations or have any other issues for Dr. Love, please email or stop by before or after class.
-- TA office hours will be more extensive, and begin 2018-09-04. Those office hours are held on the ground floor of the Wood building, in the computing lab (WG-56) or the student lounge (WG-67).
+- TA office hours are held on the ground floor of the Wood building, in the computing lab (WG-56) or the student lounge (WG-67). The schedule is:
+
+Day | Time
+-------: | ----------------------
+Tuesdays | 11:30 AM to 12:45 PM
+Wednesdays | 12:00 noon to 1:30 PM
+Thursdays | 11:30 AM to 12:45 PM, 2:30 to 4 PM, 5:30 - 7 PM
+Fridays | 10:30 AM to Noon
+
 
 ## What Do I Need To Buy? {-}
 
@@ -207,7 +215,16 @@ To contact Dr. Love and the TAs, email **431-help at case dot edu**.
 
 Teaching Assistant Office Hours are held in WG-56 (Computing Lab) or WG-67 (Student Lounge) on the ground floor of the Wood building, so be sure to look in both places if you need help. 
 
-TA office hours will start on Tuesday, September 4, and we'll specify further details as soon as possible.
+TA Office Hours are held at the following times:
+
+Day | Time
+-------: | ----------------------
+Tuesdays | 11:30 AM to 12:45 PM
+Wednesdays | 12:00 noon to 1:30 PM
+Thursdays | 11:30 AM to 12:45 PM, 2:30 to 4 PM, 5:30 - 7 PM
+Fridays | 10:30 AM to Noon
+
+This information is also available in the [Course Calendar](https://github.com/THOMASELOVE/431-2018/blob/master/calendar.md).
 
 ## Bob Winkelman
 
