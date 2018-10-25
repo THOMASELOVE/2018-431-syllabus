@@ -49,6 +49,7 @@ Wednesdays | 12:00 noon to 1:30 PM
 Thursdays | 11:30 AM to 12:45 PM, 2:30 to 4 PM, 5:30 - 7 PM
 Fridays | 10:30 AM to Noon
 
+TA office hours conclude on 2018-12-07. There are no TA office hours during Thanksgiving Week. `431-help` remains open until 5 PM on 2018-12-13, and is also open during Thanksgiving week.
 
 ## What Do I Need To Buy? {-}
 
@@ -472,7 +473,7 @@ Weight | Task
 ------: | ----------------------------------------------------
 15% | In-Class and Outside-of-Class Participation 
 25% | Completion and Quality of Homework Assignments
-30% | Performance on Quizzes 1-3 
+30% | Performance on Quizzes 1-2 
 30% | Final Project Presentation and Related Materials
 
 Any questions regarding how you are doing in the course should be directed to Dr. Love alone. In particular, the TAs do not have full access to the final grades.
@@ -504,9 +505,9 @@ This is graduate school. Missing deadlines is no longer an available option to y
 - Late work without a catastrophic circumstance is completely unacceptable. 
   - Catastrophic circumstances specifically **do not** include "my computer broke down when I tried to send my work five minutes before the deadline". It is your responsibility to anticipate and allow time for computer problems.
 
-## There are three Quizzes.
+## There are now TWO Quizzes.
 
-There are three quizzes scheduled. Each Quiz will be taken online, exclusively.
+There are two quizzes scheduled. Each Quiz will be taken online, exclusively.
 
 - **If you need to make alternate arrangements for a Quiz, please contact Professor Love via email as soon as possible**, and in any case, at least a week before a Quiz is released.
 - A test survey will be completed in September to ensure that you can use the quiz software to submit your results.
@@ -524,6 +525,13 @@ There are three quizzes scheduled. Each Quiz will be taken online, exclusively.
 5. We do not guarantee to answer questions we receive via email less than 3 hours prior to the Quiz submission deadline.
 6. After each Quiz is complete, an answer sketch will be made available. 
 7. Grades for the Quizzes are usually available within 36 hours of the deadline. If you feel Dr. Love has made an error in grading your Quiz, please let him know directly, by email.
+
+### Your Quiz Grade
+
+Your overall Quiz grade in the course will be calculated in two ways. Whichever yields the higher score will be the grade I incorporate into the process for determining your final Course grade.
+
+- weighing Quiz 1 as 40% of your Quiz grade, and Quiz 2 as 60% of your Quiz grade, or
+- weighing Quiz 1 as 33% of your Quiz grade, and Quiz 2 as 67% of your Quiz grade.
 
 ## There are Homework assignments.
 
